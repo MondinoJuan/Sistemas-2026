@@ -1,0 +1,21 @@
+#Ignoro repo de Soporte
+frro-python-2025-08/
+
+#Ignoro repo TA
+TPI_TA_4K02-G01_V2
+TPI_TA_4K02-G01
+
+#Ignoro buildozer
+.buildozer
+bin
+venv
+venv310
+uso_flask
+Algortimos_Geneticos
+
+#Ignoro PDFs
+TA/Libros Teoria/Internet de Las Cosas.pdf
+TA/Libros Teoria/Sistemas de Control para Ingenieria.pdf
+
+#Ignoro csv
+Simulacion/TPI/Archivos/recuento_de_carreteras.csv
