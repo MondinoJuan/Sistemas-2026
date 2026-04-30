@@ -1,0 +1,224 @@
+Para analizar la relación entre variables continuas se usa el scatterplot. 
+Los boxplot se usan para ver la distribución de una variable continua (mediana, cuartiles, outliers) comparada entre categorías de una variable categórica.
+Los gráficos de barras se usan principalmente para variables categóricas, pero no necesariamente “comparar categóricas entre sí” directamente, sino mostrar frecuencias (cuántos hay de cada categoría), o comparar una medida agregada (promedio, suma) de una variable numérica entre categorías.
+
+SCATTERPLOTS
+
+Ya que vimos que la colinealidad entre distancia de vuelo y el tiempo estimado de vuelo es bastante alta, es redundante evaluar la relación entre las demás variables con ambas variables. Por esto, elegimos una de las dos para hacer las futuras comparaciones, en nuestro caso eligiremos tiempo estimado de vuelo.
+
+sns.scatterplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="tiempo_estimado_vuelo", color="green")
+plt.title("Scatterplot de Ocupación vuelo vs Tiempo estimado vuelo")
+plt.show()
+
+sns.scatterplot(data=vuelos_exploracion, x="puerta_embarque", y="tiempo_estimado_vuelo", color="green")
+plt.title("Scatterplot de Puerta de embarque vs Tiempo estimado vuelo")
+plt.show()
+
+sns.scatterplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="puerta_embarque", color="green")
+plt.title("Scatterplot de Ocupación vuelo vs Puerta de embarque")
+plt.show()
+
+sns.scatterplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="visibilidad", color="green")
+plt.title("Scatterplot de Ocupación vuelo vs Visibilidad")
+plt.show()
+
+sns.scatterplot(data=vuelos_exploracion, x="puerta_embarque", y="visibilidad", color="green")
+plt.title("Scatterplot de Puerta de embarque vs Visibilidad")
+plt.show()
+
+GRÁFICOS DE BARRAS
+
+Para hacer estos gráficos estaría bueno clasificar las variables continuas y las que representan horario en categorías.
+Ya hay: cond_clima-demora, congestion_aerea-demora, tipo_avión-demora
+
+sns.countplot(data=vuelos_exploracion, x="aeropuerto_origen", hue="demora")
+plt.title("Cantidad de demoras por aeropuerto de origen")
+plt.show()
+
+sns.countplot(data=vuelos_exploracion, x="aeropuerto_destino", hue="demora")
+plt.title("Cantidad de demoras por aeropuerto destino")
+plt.show()
+
+*
+sns.countplot(data=vuelos_exploracion, x="hora_salida_programada", hue="demora")
+plt.title("Cantidad de demoras por hora de saldia programada")
+plt.show()
+
+*
+sns.countplot(data=vuelos_exploracion, x="dia_semana", hue="demora")
+plt.title("Cantidad de demoras por dia de la semana")
+plt.show()
+
+* Tal vez estos dos se podría analizar más profundamente y analizar por aeropuerto (sea origen o destino), las demoras por rango horario o dia de la semana.
+
+sns.countplot(data=vuelos_exploracion, x="temporada_alta", hue="demora")
+plt.title("Cantidad de demoras dependiendo de la temporada")
+plt.show()
+
+sns.countplot(data=vuelos_exploracion, x="puerta_embarque", hue="demora")
+plt.title("Cantidad de demoras por puerta de embarque")
+plt.show()
+
+BOXPLOTS
+
+Para hacer estos gráficos estaría bueno clasificar las variables que representan horario en categorías.
+Ya hay: visibilidad-cond_clima, visibilidad-demora, distancia_vuelo-tipo_avion
+
+Categóricas		Continuas
+aeropuerto_origen	distancia_vuelo
+aeropouerto_destino	ocupacion_vuelo
+hora_salida_programada	visibilidad
+dia_semana		tiempo_estimado_vuelo
+condiciones_climaticas
+congestion_aerea
+tipo_avion
+temporada_alta
+puerta_embarque
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="aeropuerto_origen")
+plt.title("Boxplot de la distancia_vuelo por aeropuerto_origen")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="aeropouerto_destino")
+plt.title("Boxplot de la distancia_vuelo por aeropouerto_destino")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="hora_salida_programada")
+plt.title("Boxplot de la distancia_vuelo por hora_salida_programada")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="dia_semana")
+plt.title("Boxplot de la distancia_vuelo por dia_semana")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="condiciones_climaticas")
+plt.title("Boxplot de la distancia_vuelo por condiciones_climaticas")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="congestion_aerea")
+plt.title("Boxplot de la distancia_vuelo por congestion_aerea")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="temporada_alta")
+plt.title("Boxplot de la distancia_vuelo por temporada_alta")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="puerta_embarque")
+plt.title("Boxplot de la distancia_vuelo por puerta_embarque")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="aeropuerto_origen")
+plt.title("Boxplot de la ocupacion_vuelo por aeropuerto_origen")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="aeropouerto_destino")
+plt.title("Boxplot de la ocupacion_vuelo por aeropouerto_destino")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="hora_salida_programada")
+plt.title("Boxplot de la ocupacion_vuelo por hora_salida_programada")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="dia_semana")
+plt.title("Boxplot de la ocupacion_vuelo por dia_semana")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="condiciones_climaticas")
+plt.title("Boxplot de la ocupacion_vuelo por condiciones_climaticas")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="congestion_aerea")
+plt.title("Boxplot de la ocupacion_vuelo por congestion_aerea")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="tipo_avion")
+plt.title("Boxplot de la ocupacion_vuelo por tipo_avion")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="temporada_alta")
+plt.title("Boxplot de la ocupacion_vuelo por temporada_alta")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="puerta_embarque")
+plt.title("Boxplot de la ocupacion_vuelo por puerta_embarque")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="aeropuerto_origen")
+plt.title("Boxplot de la visibilidad por aeropuerto_origen")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="aeropouerto_destino")
+plt.title("Boxplot de la visibilidad por aeropouerto_destino")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="hora_salida_programada")
+plt.title("Boxplot de la visibilidad por hora_salida_programada")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="dia_semana")
+plt.title("Boxplot de la visibilidad por dia_semana")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="congestion_aerea")
+plt.title("Boxplot de la visibilidad por congestion_aerea")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="tipo_avion")
+plt.title("Boxplot de la visibilidad por tipo_avion")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="temporada_alta")
+plt.title("Boxplot de la visibilidad por temporada_alta")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="visibilidad", y="puerta_embarque")
+plt.title("Boxplot de la visibilidad por puerta_embarque")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="aeropuerto_origen")
+plt.title("Boxplot de la tiempo_estimado_vuelo por aeropuerto_origen")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="aeropouerto_destino")
+plt.title("Boxplot de la tiempo_estimado_vuelo por aeropouerto_destino")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="hora_salida_programada")
+plt.title("Boxplot de la tiempo_estimado_vuelo por hora_salida_programada")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="dia_semana")
+plt.title("Boxplot de la tiempo_estimado_vuelo por dia_semana")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="condiciones_climaticas")
+plt.title("Boxplot de la tiempo_estimado_vuelo por condiciones_climaticas")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="congestion_aerea")
+plt.title("Boxplot de la tiempo_estimado_vuelo por congestion_aerea")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="tipo_avion")
+plt.title("Boxplot de la tiempo_estimado_vuelo por tipo_avion")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="temporada_alta")
+plt.title("Boxplot de la tiempo_estimado_vuelo por temporada_alta")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="puerta_embarque")
+plt.title("Boxplot de la tiempo_estimado_vuelo por puerta_embarque")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="distancia_vuelo", y="demora")
+plt.title("Demora vs Distancia de vuelo")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="ocupacion_vuelo", y="demora")
+plt.title("Demora vs Ocupación del vuelo")
+plt.show()
+
+sns.boxplot(data=vuelos_exploracion, x="tiempo_estimado_vuelo", y="demora")
+plt.title("Demora vs Tiempo estimado de vuelo")
+plt.show()

@@ -1,0 +1,40 @@
+% =========================
+% CONFIGURACIÓN GENERAL APA7
+% =========================
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% APA 7
+\usepackage{apa7}
+
+% Interlineado doble
+\linespread{2}
+
+% Márgenes APA (ya vienen bastante bien con apa7, pero ajustamos por si acaso)
+\usepackage[a4paper, margin=2.54cm]{geometry}
+
+% Sangría de párrafo
+\setlength{\parindent}{1.27cm}
+
+% Espaciado entre párrafos (APA no usa espacio extra)
+\setlength{\parskip}{0pt}
+
+% Bibliografía APA
+\usepackage{csquotes}
+\usepackage[style=apa, backend=biber]{biblatex}
+
+% Configuración de títulos
+\usepackage{titlesec}
+\titleformat{\section}{\normalfont\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+
+% Encabezado APA (opcional)
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+
+% Evitar que se rompan palabras
+\usepackage{microtype}

@@ -1,0 +1,37 @@
+SCATTERPLOTS
+
+[Antes de los gráficos]
+
+En esta sección se analizarán la relación entre diferentes columnas con gráficos de dispersión (scatterplots). Se busca analizar y comprender la relación entre pares de variables de nuestro dataset.
+El objetivo de utilizar estos gráficos es descubrir cómo interactúan las variables entre sí, no solo observar la distribución de los datos. Estos gráficos nos ayudan a:
+  - Identificar patrones y correlaciones: si hay tendencias claras entre variables, por ejemplo si una aumenta su valor, la otra también.
+  - Detectar multicolinealidad: nos ayuda a identifiacr si dos columnas aportan la misma información y evaluar si alguna puede ser eliminada.
+  - Se pueden observar dispersiones y anomalías: al observar la dispersión se pueden llegar a identificar agrupaciones de datos (clusters) o valores atípicos que requieran un trato especial (por ejemplo, su eliminación).
+En resumen, gracias a la información deducida de estos gráficos mediante un análisis bivariado, vamos a poder tomar decisiones de limpieza de datos, creación de nuevas variables y, llegado al caso, la estructuración de modelos de predicción
+
+------------------------------------------------------------------------------------------
+Detectar multicolinealidad es un proceso visual e intuitivo, el objetivo es encontrar variables independientes que actúan casi como si fuesen la misma métrica.
+ * La multicolinealidad se ve evidenciada cuando los puntos del gráfico no están dispersos de forma aleatoria, sino que forman una línea diagonal bien definida (ya sea ascendente o descendente). Esto significa que al conocer el valor de una de las variables, se puede deducir con gran precisión el valor de la otra, la relación es casi directa.
+* Se puede detectar información redundante (como lo es en nuestro caso el tiempo de demora de un vuelo vs la distancia del mismo). Esta información redundante es perjudicial para los algoritmos de machine learning ya que puede generar confusiones en el peso de cada neurona, el algoritmo puede tener dificultades en determinar cual de las dos variables es la importante.
+
+Una vez detectada la multicolinealidad, se usan diferentes herramientas para confirmarla:
+	+ Matriz de correlación: Cruzamos todas las variables, si la correlación entre dos de ellas es mayor a 0.8, es innegable la multicolinealidad.
+	+ Factor de inflación de varianza (VIF): si una variable llega a tener un puntaje de VIF mayor a 5 (o a 10 en casos que se permita), se confirma el problema.
+
+{Recomienda hacer un scatterplot de gasto_acumulado vs gasto_acumulado_extra}
+------------------------------------------------------------------------------------------
+
+[Gráfico de Distancia vs Tiempo estimado]
+
+En este primer gráfico se observa una obvia relación entre las variables, ya que a mayor distancia, obviamente se va a tardar más en realizar el recorrido. En este caso es que se detecta multicolinealidad debido a la relación ascendente casi perfecta, por lo que la información es redundante y no es recomendable quedarse con ambas.
+
+[Gráfico de Distancia vs Visibilidad]
+
+En este gráfico, al contrario del caso anterior, se observa una correlación nula debido a la nube de puntos. Se dispersan los puntos sin formar una tendencia definida.
+Por ende, la distancia que se viaja no tiene que ver con la visibilidad. Se pueden tener vuelos cortos o largos con visibilidad poca o alta.
+Para un algoritmo predictivo esto es muy bueno, ya que cada variable aportará información nueva en relación a la otra.
+
+[Gráfico de Tiempo estimado vs Visibilidad]
+
+Al igual que en el gráfico anterior se observa una relación mínima o nula. Es una nube de puntos sin patrón.
+El tiempo que una avión pasa en el aire no está condicionado por la visibilidad en la pista de aterrizaje. 

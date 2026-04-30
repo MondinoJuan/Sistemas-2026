@@ -1,0 +1,211 @@
+Al igual que en la hora en el otro archivo, en este la edad, la cantidad promedio de días de anticipación de compra y la cantidad de vuelos podrían evaluarse en categorías al definir rangos.
+Provinica y ocupación podrían ser filtrado para que muestre los 6 primeros con mas muestras por ejemplo, ya que si no, quedarían con muchas categorías.
+
+SCATTERPLOTS
+
+sns.scatterplot(data=cliente, x="cant_vuelos", y="gasto_acumulado", color="green")
+plt.title("Scatterplot de Cantidad de vuelos vs Gasto acumulado")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cant_vuelos", y="gasto_acumulado_extra", color="green")
+plt.title("Scatterplot de Cantidad de vuelos vs Gasto acumulado extra")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cant_vuelos", y="cantidad_millas", color="green")
+plt.title("Scatterplot de Cantidad de vuelos vs Cantidad de millas")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cant_vuelos", y="ingreso_mensual", color="green")
+plt.title("Scatterplot de Cantidad de vuelos vs Ingreso mensual")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cant_vuelos", y="anticipacion_compra_promedio", color="green")
+plt.title("Scatterplot de Cantidad de vuelos vs Anticipación de compra promedio")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado", y="gasto_acumulado_extra", color="green")
+plt.title("Scatterplot de Gasto acumulado vs Gasto acumulado extra")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado", y="cantidad_millas", color="green")
+plt.title("Scatterplot de Gasto acumulado vs Cantidad de millas")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado", y="ingreso_mensual", color="green")
+plt.title("Scatterplot de Gasto acumulado vs Ingreso mensual")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado", y="anticipacion_compra_promedio", color="green")
+plt.title("Scatterplot de Gasto acumulado vs Anticipación de compra promedio")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado_extra", y="cantidad_millas", color="green")
+plt.title("Scatterplot de Gasto acumulado extra vs Cantidad de millas")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado_extra", y="ingreso_mensual", color="green")
+plt.title("Scatterplot de Gasto acumulado extra vs Ingreso mensual")
+plt.show()
+
+sns.scatterplot(data=cliente, x="gasto_acumulado_extra", y="anticipacion_compra_promedio", color="green")
+plt.title("Scatterplot de Gasto acumulado extra vs Anticipación de compra promedio")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cantidad_millas", y="ingreso_mensual", color="green")
+plt.title("Scatterplot de Cantidad de millas vs Ingreso mensual")
+plt.show()
+
+sns.scatterplot(data=cliente, x="cantidad_millas", y="anticipacion_compra_promedio", color="green")
+plt.title("Scatterplot de Cantidad de millas vs Anticipación de compra promedio")
+plt.show()
+
+sns.scatterplot(data=cliente, x="ingreso_mensual", y="anticipacion_compra_promedio", color="green")
+plt.title("Scatterplot de Ingreso mensual vs Anticipación de compra promedio")
+plt.show()
+
+BOXPLOTS
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="sexo")
+plt.title("Boxplot de la cant_vuelos por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="provincia")
+plt.title("Boxplot de la cant_vuelos por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="ocupación")
+plt.title("Boxplot de la cant_vuelos por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="clase_preferida")
+plt.title("Boxplot de la cant_vuelos por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="programaMillas")
+plt.title("Boxplot de la cant_vuelos por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="cant_vuelos", y="canal_compra")
+plt.title("Boxplot de la cant_vuelos por canal_compra")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="sexo")
+plt.title("Boxplot de la gasto_acumulado por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="provincia")
+plt.title("Boxplot de la gasto_acumulado por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="ocupación")
+plt.title("Boxplot de la gasto_acumulado por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="clase_preferida")
+plt.title("Boxplot de la gasto_acumulado por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="programaMillas")
+plt.title("Boxplot de la gasto_acumulado por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado", y="canal_compra")
+plt.title("Boxplot de la gasto_acumulado por canal_compra")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="sexo")
+plt.title("Boxplot de la gasto_acumulado_extra por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="provincia")
+plt.title("Boxplot de la gasto_acumulado_extra por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="ocupación")
+plt.title("Boxplot de la gasto_acumulado_extra por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="clase_preferida")
+plt.title("Boxplot de la gasto_acumulado_extra por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="programaMillas")
+plt.title("Boxplot de la gasto_acumulado_extra por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="gasto_acumulado_extra", y="canal_compra")
+plt.title("Boxplot de la gasto_acumulado_extra por canal_compra")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="sexo")
+plt.title("Boxplot de la cantidad_millas por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="provincia")
+plt.title("Boxplot de la cantidad_millas por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="ocupación")
+plt.title("Boxplot de la cantidad_millas por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="clase_preferida")
+plt.title("Boxplot de la cantidad_millas por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="programaMillas")
+plt.title("Boxplot de la cantidad_millas por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="cantidad_millas", y="canal_compra")
+plt.title("Boxplot de la cantidad_millas por canal_compra")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="sexo")
+plt.title("Boxplot de la ingreso_mensual por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="provincia")
+plt.title("Boxplot de la ingreso_mensual por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="ocupación")
+plt.title("Boxplot de la ingreso_mensual por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="clase_preferida")
+plt.title("Boxplot de la ingreso_mensual por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="programaMillas")
+plt.title("Boxplot de la ingreso_mensual por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="ingreso_mensual", y="canal_compra")
+plt.title("Boxplot de la ingreso_mensual por canal_compra")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="sexo")
+plt.title("Boxplot de la anticipacion_compra_promedio por sexo")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="provincia")
+plt.title("Boxplot de la anticipacion_compra_promedio por provincia")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="ocupación")
+plt.title("Boxplot de la anticipacion_compra_promedio por ocupación")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="clase_preferida")
+plt.title("Boxplot de la anticipacion_compra_promedio por clase_preferida")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="programaMillas")
+plt.title("Boxplot de la anticipacion_compra_promedio por programaMillas")
+plt.show()
+
+sns.boxplot(data=cliente, x="anticipacion_compra_promedio", y="canal_compra")
+plt.title("Boxplot de la anticipacion_compra_promedio por canal_compra")
+plt.show()
+
