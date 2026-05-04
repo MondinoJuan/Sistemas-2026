@@ -1,0 +1,15 @@
+﻿No.,Estado,Humedad,Viento,Jugar
+1,Soleado,85,No,No
+2,Soleado,90,Si,No
+3,Soleado,86,Si,No
+4,Lluvioso,96,No,No
+5,Lluvioso,80,No,Si
+6,Lluvioso,70,Si,No
+7,Soleado,85,Si,Si
+8,Soleado,95,Si,No
+9,Nublado,70,No,Si
+10,Lluvioso,80,No,Si
+11,Soleado,70,No,Si
+12,Nublado,90,Si,Si
+13,Nublado,75,No,No
+14,Lluvioso,91,Si,Si

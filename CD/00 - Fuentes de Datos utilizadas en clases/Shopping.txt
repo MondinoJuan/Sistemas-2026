@@ -1,0 +1,787 @@
+Alimentos Listos	Alimentos congelados	Alcohol	Vegetales Frescos	Leche	Productos de Panaderia	Carne Fresca	Artículos de tocador	Aperitivos	Alimentos en Conservas	Género	Edad	Estado Civil	Hijos	Trabaja
+1	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	1	0	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	1	1	0	Hombre	18 to 30	Soltero   	No 	Si
+1	0	0	0	1	1	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	1	0	0	1	1	Hombre	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	No 
+1	0	0	0	1	0	0	0	1	1	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	No 
+1	1	1	0	1	1	0	0	1	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	ViuDivSep  	No 	No 
+1	0	0	0	0	0	0	0	1	1	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	Soltero   	No 	No 
+1	0	1	0	0	0	0	0	0	0	Hombre	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	1	0	0	0	1	Hombre	18 to 30	Soltero   	No 	No 
+1	0	0	1	0	0	0	0	0	1	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	No 
+1	0	0	0	0	1	0	1	1	0	Mujer	18 to 30	Soltero   	No 	No 
+1	0	0	0	0	0	0	0	1	0	Hombre 	18 to 30	Casado  	No 	Si
+1	0	1	0	1	0	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	Si	Si
+1	1	0	0	0	0	0	0	1	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	1	0	0	1	0	Mujer	18 to 30	Separated	Si	Si
+1	0	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	1	Mujer	18 to 30	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	0	0	1	Mujer	18 to 30	Soltero   	No 	Si
+1	1	0	0	0	0	0	0	1	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	1	1	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	1	Hombre 	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	Si	Si
+1	1	1	0	0	0	0	0	1	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	1	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	1	1	0	0	0	0	1	0	0	Hombre 	18 to 30	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Divorced 	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Separated	No 	Si
+1	0	1	0	0	0	0	0	0	0	Mujer	51 to 60	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	Over 60 	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	1	Hombre 	Over 60 	Soltero   	No 	Si
+1	1	0	0	0	1	1	0	0	1	Hombre 	31 to 40	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre 	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	Over 60 	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	51 to 60	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	Soltero   	No 	Si
+1	1	0	0	0	1	0	0	1	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	1	0	0	0	1	0	1	0	1	Mujer	31 to 40	Separated	No 	Si
+1	0	0	0	1	0	0	0	1	0	Mujer	18 to 30	Divorced 	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	41 to 50	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	1	1	Hombre 	18 to 30	Separated	No 	Si
+1	0	1	0	0	0	0	0	0	0	Hombre 	41 to 50	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre 	31 to 40	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Casado  	No 	Si
+1	1	1	0	0	0	0	1	0	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	0	0	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	0	0	0	Hombre 	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	41 to 50	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	51 to 60	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	31 to 40	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre 	41 to 50	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	31 to 40	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	Over 60 	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	Separated	Si	Si
+1	0	0	0	0	0	0	0	1	1	Hombre	31 to 40	Casado  	Si	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	31 to 40	Divorced 	Si	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	41 to 50	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	51 to 60	Soltero   	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre	41 to 50	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	1	1	Mujer	41 to 50	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	41 to 50	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	51 to 60	Separated	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	51 to 60	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	41 to 50	Casado  	No 	Si
+1	0	0	0	1	0	0	0	1	0	Hombre	18 to 30	Casado  	No 	Si
+1	0	1	0	0	1	0	0	0	0	Hombre	51 to 60	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	1	1	0	Hombre	Over 60 	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	31 to 40	Divorced 	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	Over 60 	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	1	Hombre	Over 60 	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	1	1	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	0	0	0	0	1	0	Mujer	Over 60 	Separated	No 	Si
+1	1	0	0	0	0	0	0	0	0	Mujer	41 to 50	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	Over 60 	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	41 to 50	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre	41 to 50	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	0	1	0	Hombre	41 to 50	ViuDivSep  	No 	Si
+1	0	0	0	1	1	0	0	1	0	Hombre	Over 60 	Casado  	No 	Si
+1	1	0	0	0	1	0	0	0	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	1	0	0	0	0	0	Mujer	Over 60 	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	51 to 60	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	31 to 40	Soltero   	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	41 to 50	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	18 to 30	Casado  	No 	Si
+1	0	0	0	1	1	0	1	1	0	Hombre	18 to 30	Casado  	No 	Si
+1	1	0	0	0	0	1	0	1	1	Mujer	18 to 30	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre	31 to 40	Separated	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre	18 to 30	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	51 to 60	Casado  	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre	51 to 60	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Mujer	41 to 50	Casado  	No 	Si
+1	0	1	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	0	1	1	0	0	0	1	Hombre	Over 60 	Casado  	No 	Si
+1	0	0	0	0	0	0	0	0	0	Hombre	41 to 50	Separated	No 	Si
+1	1	0	0	0	0	0	0	0	0	Hombre	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	0	0	0	0	1	1	Mujer	Over 60 	Casado  	No 	Si
+1	1	1	1	0	1	1	0	1	1	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	0	0	1	0	1	1	1	Hombre	31 to 40	Soltero   	No 	Si
+1	1	1	0	0	1	0	0	0	1	Hombre	41 to 50	Divorced 	No 	Si
+1	1	1	0	1	1	0	0	0	1	Hombre	31 to 40	Divorced 	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	41 to 50	Separated	No 	Si
+1	1	1	0	1	0	0	1	1	1	Hombre	41 to 50	Separated	No 	Si
+1	1	1	0	0	1	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	0	0	1	Mujer	41 to 50	Separated	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	41 to 50	Divorced 	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	Soltero   	No 	Si
+1	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Soltero   	No 	Si
+1	0	1	0	0	0	0	0	0	1	Hombre	51 to 60	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	1	Mujer	Over 60 	Soltero   	No 	Si
+1	1	1	0	1	1	1	0	1	1	Hombre	51 to 60	Casado  	No 	Si
+0	0	1	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Soltero   	No 	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	Casado  	Si	Si
+0	0	0	0	1	0	0	0	0	1	Hombre	51 to 60	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	Si	Si
+0	0	0	1	0	0	0	0	0	1	Hombre	Over 60 	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Casado  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	41 to 50	Casado  	Si	Si
+0	0	1	0	0	1	0	0	0	1	Mujer	51 to 60	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Divorced 	Si	Si
+1	0	1	0	0	1	0	0	1	1	Hombre	31 to 40	ViuDivSep  	Si	Si
+0	0	0	0	0	1	0	0	0	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	ViuDivSep  	Si	Si
+0	0	0	1	0	0	0	0	1	1	Mujer	Over 60 	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	1	0	0	0	0	0	1	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Separated	Si	Si
+0	1	0	0	0	0	0	0	0	1	Mujer	51 to 60	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	18 to 30	ViuDivSep  	Si	Si
+1	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	51 to 60	Separated	Si	Si
+1	0	1	0	1	0	0	0	1	1	Hombre	51 to 60	Separated	Si	Si
+1	1	0	0	0	0	0	0	1	1	Hombre	Over 60 	Divorced 	Si	Si
+1	0	0	0	0	1	0	0	0	1	Hombre	51 to 60	Divorced 	Si	Si
+1	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	41 to 50	Soltero   	Si	Si
+0	0	1	1	0	0	0	0	0	1	Hombre	41 to 50	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	51 to 60	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	1	Hombre	41 to 50	Separated	Si	Si
+1	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Divorced 	Si	Si
+0	1	0	0	0	1	0	0	0	1	Hombre	41 to 50	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	Si	Si
+0	1	0	0	0	0	0	0	0	1	Hombre	41 to 50	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	1	Mujer	41 to 50	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Divorced 	Si	Si
+1	0	0	0	1	1	0	0	0	1	Mujer	41 to 50	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	1	0	0	0	1	1	Mujer	41 to 50	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	ViuDivSep  	Si	Si
+1	1	0	0	0	0	0	0	0	1	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	1	0	1	1	1	Mujer	41 to 50	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	1	Hombre	51 to 60	Separated	Si	Si
+0	1	1	0	0	1	0	0	0	1	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Soltero   	Si	Si
+1	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	1	Hombre	41 to 50	Casado  	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	ViuDivSep  	Si	Si
+1	0	0	1	0	0	0	0	1	1	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Casado  	Si	Si
+1	1	1	1	1	1	0	0	1	1	Mujer	51 to 60	ViuDivSep  	Si	Si
+1	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Casado  	No 	Si
+1	0	0	0	1	1	0	0	0	1	Mujer	31 to 40	Separated	No 	Si
+1	0	0	0	1	1	0	0	0	1	Hombre	51 to 60	Separated	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+0	0	0	0	0	0	0	0	1	1	Hombre	41 to 50	Soltero   	No 	Si
+0	0	0	0	0	0	0	0	1	1	Hombre	31 to 40	Separated	No 	Si
+1	1	1	0	1	1	0	1	1	1	Mujer	51 to 60	Divorced 	No 	Si
+0	0	0	0	0	0	0	0	0	1	Hombre	51 to 60	ViuDivSep  	No 	No 
+1	0	1	0	0	1	0	0	0	1	Hombre	18 to 30	Separated	No 	No 
+1	0	0	0	0	0	0	0	1	1	Hombre	Over 60 	Soltero   	No 	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	Over 60 	Divorced 	No 	No 
+0	1	0	0	1	1	0	0	1	1	Mujer	51 to 60	Separated	Si	No 
+0	1	0	1	0	1	0	0	1	1	Hombre	41 to 50	Soltero   	Si	No 
+1	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Separated	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	ViuDivSep  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	31 to 40	Casado  	Si	No 
+0	0	0	0	0	1	0	0	0	1	Mujer	31 to 40	Separated	Si	No 
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Casado  	Si	No 
+0	1	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	Si	No 
+1	0	0	1	1	1	0	0	1	1	Hombre	41 to 50	Casado  	Si	No 
+0	1	0	0	0	0	0	0	0	1	Hombre	51 to 60	Divorced 	Si	No 
+0	1	1	0	0	0	0	0	0	1	Hombre	41 to 50	ViuDivSep  	Si	No 
+0	0	0	0	0	1	0	0	0	1	Hombre	51 to 60	Casado  	Si	No 
+0	1	1	0	0	1	0	0	0	1	Mujer	31 to 40	Soltero   	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Soltero   	Si	No 
+0	1	0	1	0	1	0	0	1	1	Mujer	51 to 60	Casado  	Si	No 
+1	0	1	0	0	0	0	0	1	1	Mujer	31 to 40	Casado  	Si	No 
+1	0	0	0	0	0	0	0	1	1	Mujer	18 to 30	Soltero   	Si	No 
+1	0	0	0	0	0	0	0	1	1	Mujer	Over 60 	Divorced 	Si	No 
+0	1	0	0	0	1	0	0	0	1	Mujer	51 to 60	Soltero   	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Casado  	Si	No 
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Casado  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Soltero   	Si	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	Si	No 
+1	0	0	0	0	1	0	0	1	1	Hombre	Over 60 	Soltero   	Si	No 
+0	0	0	0	0	1	0	0	0	1	Hombre	51 to 60	ViuDivSep  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Casado  	Si	No 
+0	1	0	0	0	0	0	0	1	1	Hombre	51 to 60	Divorced 	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	51 to 60	ViuDivSep  	Si	No 
+0	0	0	0	0	0	0	0	1	1	Hombre	31 to 40	Separated	Si	No 
+1	0	1	0	0	1	0	1	1	1	Hombre	31 to 40	ViuDivSep  	Si	No 
+0	1	0	0	0	1	0	0	0	1	Hombre	31 to 40	Casado  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	Casado  	Si	No 
+0	0	0	0	0	1	0	0	1	1	Hombre	Over 60 	Separated	Si	No 
+0	0	1	0	1	0	0	0	1	1	Hombre	51 to 60	ViuDivSep  	Si	No 
+0	0	0	0	0	0	0	1	0	1	Hombre	31 to 40	Divorced 	Si	No 
+1	0	0	0	0	0	1	0	1	1	Hombre	41 to 50	Casado  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Separated	Si	No 
+0	0	0	0	1	0	0	0	0	1	Hombre	31 to 40	Divorced 	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	Over 60 	Casado  	Si	No 
+0	1	0	0	0	1	0	0	1	1	Hombre	51 to 60	Casado  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Hombre	41 to 50	ViuDivSep  	Si	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Casado  	Si	No 
+0	0	1	0	0	1	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	ViuDivSep  	No 	No 
+1	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Separated	No 	No 
+0	0	0	0	0	1	0	0	0	1	Mujer	41 to 50	Soltero   	No 	No 
+0	0	0	0	1	1	0	0	0	1	Mujer	Over 60 	ViuDivSep  	No 	No 
+0	1	0	0	0	0	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	No 
+0	1	0	0	0	1	0	0	0	1	Mujer	51 to 60	Separated	No 	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	18 to 30	Casado  	No 	No 
+0	0	1	0	0	0	0	0	0	1	Mujer	Over 60 	Separated	No 	No 
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Separated	No 	No 
+0	1	0	0	0	1	0	0	1	1	Mujer	41 to 50	Casado  	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+1	0	1	0	0	1	0	0	0	1	Mujer	51 to 60	Separated	No 	Si
+1	1	1	1	0	1	0	0	1	1	Mujer	41 to 50	Casado  	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	41 to 50	Casado  	No 	Si
+0	0	1	0	0	1	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	1	1	1	Mujer	31 to 40	Casado  	No 	Si
+1	0	0	0	0	0	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	31 to 40	Casado  	No 	Si
+1	1	0	1	0	1	1	0	1	1	Mujer	Over 60 	Separated	No 	Si
+1	0	1	0	0	1	0	0	1	1	Mujer	18 to 30	Divorced 	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	18 to 30	Casado  	No 	Si
+1	0	0	0	0	1	0	0	1	1	Mujer	51 to 60	Soltero   	No 	Si
+0	0	0	1	1	1	0	0	1	1	Mujer	31 to 40	Separated	No 	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Separated	No 	Si
+1	0	0	0	0	1	0	0	0	1	Mujer	41 to 50	Casado  	No 	Si
+1	1	0	0	0	0	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Separated	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	18 to 30	Casado  	No 	Si
+0	1	0	0	0	1	0	0	0	1	Mujer	31 to 40	Casado  	No 	Si
+0	1	0	0	0	0	0	0	0	1	Mujer	Over 60 	Casado  	No 	Si
+0	0	0	1	0	0	0	0	0	1	Mujer	31 to 40	Divorced 	No 	Si
+1	0	0	1	1	1	0	0	1	1	Mujer	18 to 30	Casado  	No 	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	18 to 30	Separated	No 	Si
+1	1	0	0	0	0	0	0	0	1	Mujer	41 to 50	Casado  	No 	Si
+1	0	0	0	1	0	0	0	1	1	Mujer	41 to 50	Casado  	No 	Si
+0	0	0	0	0	1	0	0	0	1	Mujer	41 to 50	Divorced 	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	41 to 50	Separated	No 	Si
+0	0	0	0	0	0	0	0	0	1	Mujer	51 to 60	Soltero   	No 	Si
+1	1	1	0	1	0	1	1	1	0	Hombre	51 to 60	Divorced 	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre	51 to 60	Casado  	No 	Si
+1	1	1	0	1	1	0	1	1	0	Hombre	31 to 40	Divorced 	No 	Si
+1	0	1	0	0	1	0	0	1	1	Mujer	31 to 40	Casado  	No 	Si
+1	0	1	0	1	1	0	0	1	1	Mujer	41 to 50	Soltero   	No 	Si
+1	0	0	0	0	0	0	1	1	0	Mujer	31 to 40	Casado  	No 	Si
+1	0	1	0	0	1	0	1	0	0	Mujer	31 to 40	Separated	No 	Si
+1	1	1	1	1	1	1	0	1	1	Hombre 	51 to 60	Separated	No 	Si
+1	0	1	0	0	1	0	0	0	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	1	0	1	1	1	0	0	0	1	Mujer	31 to 40	Divorced 	No 	Si
+1	0	1	0	0	0	0	0	1	1	Mujer	51 to 60	Separated	No 	Si
+1	1	1	0	0	1	0	0	0	1	Hombre 	41 to 50	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	0	0	0	1	1	0	1	0	0	Hombre 	41 to 50	Separated	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	1	1	0	Hombre 	51 to 60	ViuDivSep  	No 	Si
+1	0	1	1	1	1	0	0	1	1	Hombre 	31 to 40	Divorced 	No 	Si
+1	1	1	0	1	1	0	0	0	0	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	0	1	1	1	0	1	1	Mujer	31 to 40	Divorced 	No 	Si
+1	0	1	0	0	1	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	18 to 30	Divorced 	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	51 to 60	Soltero   	No 	Si
+1	1	1	1	1	1	0	0	0	0	Mujer	Over 60 	Divorced 	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	Over 60 	Separated	No 	Si
+1	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	1	0	0	1	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre	51 to 60	Separated	No 	Si
+1	1	1	0	0	1	0	0	1	0	Mujer	41 to 50	Separated	No 	Si
+1	1	1	0	1	0	0	0	1	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	1	0	1	1	1	1	1	1	1	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	1	0	1	1	0	0	1	0	Hombre	31 to 40	Casado  	No 	Si
+1	1	1	0	0	1	0	0	1	1	Hombre	Over 60 	Casado  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	1	1	1	1	0	0	1	1	Hombre 	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	1	1	1	0	1	1	Hombre 	41 to 50	Soltero   	No 	Si
+1	0	1	0	1	1	0	0	1	1	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	1	0	1	0	0	1	1	Mujer	51 to 60	Separated	No 	Si
+1	1	1	1	1	1	0	0	0	1	Mujer	18 to 30	Divorced 	No 	Si
+1	1	1	1	1	1	0	0	1	1	Mujer	31 to 40	Separated	No 	Si
+1	1	1	0	0	1	0	0	1	1	Hombre 	31 to 40	Casado  	No 	Si
+0	1	1	0	1	1	0	0	1	1	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	1	1	0	1	0	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	0	1	0	1	1	0	0	1	1	Mujer	41 to 50	Separated	No 	Si
+0	1	1	1	1	1	0	1	0	1	Hombre 	41 to 50	Divorced 	No 	Si
+1	1	1	0	1	0	0	0	1	1	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	0	0	1	Mujer	31 to 40	Separated	No 	Si
+1	1	1	0	1	1	0	0	0	1	Hombre 	51 to 60	ViuDivSep  	No 	Si
+1	1	1	1	1	1	0	1	1	1	Hombre 	Over 60 	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	0	0	1	Hombre 	31 to 40	Separated	No 	Si
+1	1	1	0	1	0	1	0	1	1	Mujer	41 to 50	Divorced 	No 	Si
+1	1	0	0	1	1	0	0	1	1	Hombre 	51 to 60	ViuDivSep  	No 	Si
+1	1	1	0	1	1	1	1	1	1	Mujer	18 to 30	Casado  	No 	Si
+1	1	1	0	1	0	1	1	1	1	Hombre 	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+1	1	1	0	1	1	1	0	1	1	Mujer	18 to 30	Casado  	No 	Si
+1	1	1	1	1	1	0	0	0	1	Hombre 	51 to 60	Casado  	No 	Si
+1	1	1	1	1	1	0	1	1	1	Hombre 	51 to 60	Soltero   	No 	Si
+1	1	1	1	1	1	0	1	1	1	Mujer	Over 60 	ViuDivSep  	No 	Si
+1	1	1	0	0	1	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+0	0	0	0	1	0	0	0	0	1	Hombre 	51 to 60	Casado  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Hombre 	31 to 40	Casado  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Hombre 	51 to 60	Separated	No 	Si
+1	1	1	1	0	1	0	1	1	1	Hombre 	18 to 30	Separated	No 	Si
+1	0	0	0	1	1	0	0	1	1	Hombre 	51 to 60	Divorced 	No 	Si
+1	0	1	0	1	0	1	0	0	1	Hombre 	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	1	1	0	0	1	1	Hombre 	41 to 50	Divorced 	No 	Si
+1	1	1	1	0	0	1	0	1	1	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	1	0	0	1	0	0	1	1	Mujer	51 to 60	Separated	No 	Si
+1	1	1	0	1	1	0	0	1	1	Hombre 	18 to 30	Divorced 	No 	Si
+1	1	1	0	0	1	1	0	1	1	Hombre 	41 to 50	Separated	No 	Si
+1	0	1	1	1	0	0	0	0	1	Mujer	51 to 60	Separated	No 	Si
+0	1	0	0	1	0	0	0	0	1	Hombre 	41 to 50	Separated	No 	Si
+0	1	0	0	0	0	0	1	0	1	Hombre 	51 to 60	ViuDivSep  	No 	Si
+0	1	1	1	1	1	0	1	0	1	Hombre 	51 to 60	Casado  	No 	Si
+1	1	1	1	0	0	0	0	1	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	1	0	0	1	1	0	0	0	1	Mujer	31 to 40	Separated	No 	Si
+1	1	1	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+0	0	0	0	1	0	0	0	1	1	Hombre 	41 to 50	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	1	Mujer	51 to 60	Casado  	No 	Si
+1	1	0	0	0	0	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	0	1	1	Mujer	31 to 40	Soltero   	No 	Si
+0	0	0	0	0	1	0	0	1	1	Mujer	18 to 30	Casado  	Si	No 
+1	0	1	0	1	1	0	1	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	1	0	0	0	0	1	1	Mujer	18 to 30	ViuDivSep  	Si	Si
+1	0	0	0	0	1	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+0	1	1	0	0	0	0	1	1	0	Mujer	18 to 30	Separated	Si	Si
+1	1	0	0	0	1	0	0	0	0	Mujer	18 to 30	Separated	Si	Si
+0	1	1	0	1	1	0	0	1	1	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+1	1	1	0	0	1	0	0	1	1	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	1	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	1	0	0	0	0	0	1	1	Mujer	18 to 30	Soltero   	Si	No 
+1	0	0	0	1	1	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	1	0	0	0	1	0	1	1	1	Mujer	18 to 30	Soltero   	Si	Si
+0	1	1	0	0	1	0	1	1	1	Mujer	18 to 30	Soltero   	Si	Si
+1	1	1	0	0	1	0	0	0	1	Mujer	18 to 30	Soltero   	Si	Si
+0	0	1	0	0	0	0	0	1	1	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	1	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+1	0	0	0	1	1	1	0	0	1	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	18 to 30	Soltero   	Si	Si
+0	1	0	0	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+0	1	1	0	0	1	0	0	0	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	Si	No 
+0	0	0	0	0	1	0	0	1	0	Mujer	18 to 30	Soltero   	Si	Si
+0	1	1	0	1	1	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	1	1	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+0	0	1	0	0	0	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+0	1	0	0	0	1	0	0	1	1	Mujer	18 to 30	Casado  	Si	Si
+0	1	1	1	1	1	0	0	1	1	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Casado  	Si	Si
+1	1	0	0	1	1	0	0	0	1	Mujer	18 to 30	Casado  	Si	Si
+1	1	0	0	0	1	0	0	0	1	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+1	1	0	0	0	0	0	0	1	0	Mujer	18 to 30	Casado  	Si	No 
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	1	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	1	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	1	0	0	1	1	0	1	1	1	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	1	0	0	0	0	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	1	1	1	0	0	1	1	Mujer	31 to 40	Casado  	Si	Si
+0	0	1	0	0	1	0	1	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	1	0	1	0	1	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	No 
+1	0	0	0	1	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	No 
+1	0	0	0	0	1	0	0	0	1	Mujer	31 to 40	Casado  	Si	No 
+0	0	0	0	0	1	0	0	1	0	Mujer	31 to 40	Casado  	Si	No 
+0	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	No 
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	Si	No 
+1	0	0	0	1	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	1	0	1	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	0	1	1	Mujer	31 to 40	Casado  	Si	Si
+1	0	0	0	0	1	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+1	1	0	0	0	1	0	0	1	0	Mujer	31 to 40	Separated	Si	Si
+0	0	1	0	0	1	0	0	0	0	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+0	0	0	0	0	1	0	1	1	0	Mujer	31 to 40	Separated	Si	Si
+1	0	0	0	1	0	0	0	0	1	Mujer	31 to 40	Separated	Si	Si
+1	1	0	0	0	1	0	0	0	1	Mujer	31 to 40	Separated	Si	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Separated	Si	Si
+0	0	0	1	1	0	1	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+0	1	0	0	0	1	0	0	0	1	Mujer	31 to 40	Separated	Si	Si
+1	1	1	0	1	1	1	0	1	1	Mujer	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	ViuDivSep  	Si	No 
+0	1	1	0	0	1	0	1	1	1	Mujer	31 to 40	ViuDivSep  	Si	No 
+1	0	0	0	0	1	0	0	0	0	Mujer	31 to 40	Separated	Si	No 
+0	1	1	0	0	1	0	0	1	0	Mujer	31 to 40	Separated	Si	No 
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Soltero   	Si	Si
+1	1	1	0	1	1	0	1	1	1	Mujer	31 to 40	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	Si	Si
+1	1	0	0	0	1	0	0	1	0	Mujer	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	31 to 40	Divorced 	Si	Si
+0	0	1	0	0	1	0	0	0	1	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+1	0	1	0	0	1	0	1	1	0	Mujer	31 to 40	Separated	No 	Si
+0	0	1	0	0	1	0	0	1	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+0	1	0	0	0	1	0	0	1	1	Mujer	31 to 40	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	1	1	Mujer	41 to 50	Soltero   	No 	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	Casado  	No 	Si
+1	1	0	0	0	1	0	0	1	1	Mujer	51 to 60	Divorced 	No 	Si
+1	1	0	1	1	1	0	1	1	1	Mujer	51 to 60	Separated	No 	Si
+1	0	0	0	1	1	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	0	1	0	0	0	0	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	0	1	1	0	0	1	1	Mujer	41 to 50	Casado  	No 	Si
+1	0	0	0	1	1	0	0	1	1	Mujer	Over 60 	Casado  	No 	Si
+0	1	1	0	0	1	0	0	1	0	Mujer	Over 60 	Casado  	No 	Si
+0	1	0	0	0	1	0	0	1	1	Mujer	51 to 60	Casado  	No 	Si
+1	1	1	0	0	1	0	0	1	1	Mujer	31 to 40	Casado  	No 	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	0	1	0	0	1	1	Mujer	31 to 40	Separated	No 	Si
+0	0	0	0	0	1	0	0	0	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	Over 60 	ViuDivSep  	No 	Si
+1	0	0	0	1	1	0	0	1	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	Over 60 	Casado  	No 	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	51 to 60	Separated	No 	Si
+1	1	0	0	0	1	0	0	1	1	Hombre 	Over 60 	Soltero   	No 	Si
+1	1	0	0	1	0	0	0	1	0	Mujer	18 to 30	Divorced 	No 	Si
+0	0	1	1	0	0	0	1	1	1	Hombre 	51 to 60	Divorced 	No 	Si
+1	0	0	0	0	1	0	0	0	0	Hombre 	41 to 50	Casado  	No 	Si
+0	0	1	0	1	1	0	0	1	1	Hombre 	51 to 60	Casado  	No 	Si
+0	1	1	0	1	1	0	1	1	0	Hombre 	41 to 50	ViuDivSep  	No 	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	0	1	0	0	1	1	Mujer	18 to 30	Separated	No 	Si
+0	1	0	1	1	0	0	0	0	1	Hombre 	41 to 50	Soltero   	No 	Si
+0	1	1	0	0	1	0	1	1	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	0	0	0	0	1	0	0	1	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+0	1	0	0	0	1	0	0	0	0	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	1	1	1	Hombre 	31 to 40	Separated	No 	Si
+0	0	0	0	0	1	0	0	0	0	Hombre 	31 to 40	Divorced 	No 	Si
+0	1	1	1	0	0	0	0	1	1	Hombre 	18 to 30	ViuDivSep  	No 	Si
+1	0	1	0	1	1	0	0	1	0	Hombre 	18 to 30	Casado  	No 	Si
+1	1	0	0	1	1	0	0	0	1	Hombre 	Over 60 	ViuDivSep  	No 	Si
+0	0	0	1	1	0	0	0	1	0	Mujer	Over 60 	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	ViuDivSep  	Si	Si
+0	0	1	1	1	1	0	0	0	0	Hombre 	31 to 40	ViuDivSep  	Si	Si
+0	1	0	0	0	1	0	0	0	1	Hombre 	31 to 40	Divorced 	Si	Si
+1	0	1	0	0	1	0	0	0	1	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Hombre 	51 to 60	Casado  	Si	Si
+1	1	0	0	1	1	0	1	0	1	Mujer	31 to 40	ViuDivSep  	Si	Si
+0	1	0	0	0	1	0	0	1	0	Mujer	41 to 50	Soltero   	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	Separated	Si	Si
+1	1	1	1	0	1	0	0	1	1	Hombre 	41 to 50	Casado  	Si	No 
+0	0	0	1	0	1	0	0	1	1	Mujer	41 to 50	ViuDivSep  	Si	No 
+1	1	1	0	0	1	0	1	0	1	Hombre 	31 to 40	Separated	Si	No 
+0	0	0	0	0	0	0	1	1	1	Hombre 	Over 60 	ViuDivSep  	Si	No 
+0	0	0	0	1	1	0	1	0	0	Hombre 	31 to 40	Separated	Si	No 
+0	0	0	0	0	1	0	0	1	1	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	1	0	0	1	0	Mujer	31 to 40	Separated	Si	Si
+1	0	0	1	0	1	0	0	0	1	Hombre 	51 to 60	ViuDivSep  	Si	Si
+1	0	1	0	0	1	0	0	1	0	Hombre 	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	31 to 40	Separated	Si	Si
+0	1	0	0	1	1	0	0	1	1	Hombre 	18 to 30	Divorced 	Si	Si
+0	0	0	0	0	1	0	0	0	1	Hombre 	31 to 40	Separated	Si	Si
+1	0	0	1	1	1	0	1	1	1	Hombre 	51 to 60	Divorced 	Si	Si
+0	0	0	1	0	0	0	1	1	1	Hombre 	18 to 30	Casado  	Si	Si
+0	0	0	0	0	1	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+0	1	0	0	0	0	0	0	1	0	Hombre 	31 to 40	Soltero   	Si	Si
+0	0	0	1	1	1	0	0	0	1	Mujer	41 to 50	Separated	Si	Si
+0	0	1	0	0	1	0	0	1	0	Hombre 	41 to 50	Casado  	Si	Si
+0	1	1	0	0	1	0	0	1	0	Mujer	31 to 40	Soltero   	Si	Si
+1	0	1	0	1	1	0	0	1	1	Mujer	51 to 60	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	41 to 50	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	41 to 50	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+0	1	0	0	0	1	0	0	1	1	Hombre 	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	31 to 40	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	0	Hombre 	51 to 60	ViuDivSep  	Si	Si
+1	1	1	1	0	1	0	0	1	0	Mujer	Over 60 	Casado  	Si	Si
+0	0	0	0	1	0	0	0	1	1	Hombre 	41 to 50	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	31 to 40	Separated	Si	Si
+1	1	1	0	1	1	0	1	0	1	Hombre 	51 to 60	Divorced 	Si	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	Si	Si
+1	0	0	0	0	1	0	1	1	0	Mujer	41 to 50	Casado  	Si	Si
+1	1	0	0	0	0	0	0	1	1	Hombre 	31 to 40	Separated	Si	Si
+0	1	0	0	0	1	0	1	0	1	Hombre 	31 to 40	Soltero   	Si	Si
+1	0	0	0	0	1	0	0	0	0	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	Over 60 	Separated	Si	Si
+0	0	0	0	0	0	0	0	1	0	Mujer	18 to 30	Divorced 	Si	Si
+0	1	1	0	1	1	0	1	1	1	Mujer	51 to 60	ViuDivSep  	Si	Si
+0	0	0	0	1	1	0	0	0	0	Mujer	31 to 40	ViuDivSep  	Si	Si
+1	1	1	1	0	1	1	0	0	0	Mujer	41 to 50	Separated	Si	Si
+0	0	0	0	0	1	0	0	1	0	Hombre 	41 to 50	ViuDivSep  	Si	Si
+0	0	0	0	0	1	0	0	1	1	Hombre 	41 to 50	Divorced 	Si	Si
+0	0	0	0	0	0	0	0	1	1	Mujer	18 to 30	Separated	Si	Si
+0	1	0	0	0	1	0	0	0	1	Hombre 	31 to 40	Separated	Si	Si
+0	0	0	0	0	1	0	0	1	0	Mujer	51 to 60	Casado  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	51 to 60	ViuDivSep  	Si	Si
+0	0	0	0	0	0	0	0	1	0	Hombre 	41 to 50	Separated	Si	Si
+0	1	0	0	0	1	0	0	1	1	Mujer	51 to 60	Separated	Si	No 
+1	0	0	0	0	1	0	1	1	0	Mujer	31 to 40	ViuDivSep  	Si	No 
+0	1	0	0	0	1	0	0	0	0	Mujer	31 to 40	Soltero   	Si	No 
+0	0	0	0	0	0	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	Si	No 
+1	0	0	0	0	1	0	1	1	0	Hombre 	41 to 50	Casado  	Si	Si
+0	0	0	0	0	1	0	0	0	1	Mujer	31 to 40	ViuDivSep  	Si	Si
+1	0	1	0	0	1	0	0	1	0	Hombre 	41 to 50	ViuDivSep  	Si	Si
+1	1	1	0	0	1	0	0	1	0	Hombre 	31 to 40	Casado  	Si	Si
+0	1	1	1	1	1	0	0	0	1	Hombre 	31 to 40	Separated	No 	Si
+1	1	1	0	1	1	0	1	1	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	31 to 40	Separated	No 	Si
+0	0	1	0	0	0	0	0	1	0	Mujer	41 to 50	Casado  	No 	Si
+0	1	1	0	1	1	0	0	1	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	0	1	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+1	1	0	0	1	0	0	0	0	0	Mujer	51 to 60	Casado  	No 	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Divorced 	No 	Si
+1	0	1	0	1	1	0	0	1	1	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	1	1	1	0	0	1	1	Mujer	18 to 30	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	1	0	Hombre	31 to 40	Separated	No 	Si
+0	1	1	0	1	1	0	1	1	0	Hombre	51 to 60	Separated	No 	Si
+1	1	1	0	0	1	0	0	1	0	Hombre	31 to 40	ViuDivSep  	No 	Si
+1	1	1	0	1	1	0	0	0	0	Mujer	Over 60 	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	1	0	Hombre	18 to 30	Separated	No 	Si
+0	0	1	0	0	0	0	0	1	1	Mujer	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	41 to 50	Separated	No 	Si
+0	0	1	0	0	0	0	0	1	0	Hombre 	41 to 50	Casado  	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	31 to 40	Separated	No 	Si
+0	0	1	0	0	1	0	0	1	0	Mujer	18 to 30	Casado  	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	31 to 40	Casado  	No 	Si
+0	1	0	1	0	1	0	0	0	1	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	1	0	0	0	1	0	Mujer	31 to 40	Soltero   	No 	Si
+1	0	1	0	0	1	0	0	0	0	Hombre 	41 to 50	Casado  	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre 	31 to 40	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Mujer	51 to 60	Soltero   	No 	Si
+1	0	1	0	0	0	0	1	0	0	Mujer	51 to 60	ViuDivSep  	No 	Si
+1	1	0	0	0	0	0	0	0	1	Hombre 	18 to 30	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	41 to 50	Soltero   	No 	Si
+0	1	1	0	0	1	0	0	0	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+1	1	1	0	0	0	0	0	1	0	Mujer	Over 60 	Soltero   	No 	Si
+1	1	1	0	0	1	0	1	1	0	Hombre 	31 to 40	Soltero   	No 	Si
+1	1	1	0	0	1	0	0	0	0	Hombre 	31 to 40	Casado  	No 	Si
+0	0	1	0	0	0	0	0	1	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	0	0	1	Mujer	41 to 50	Casado  	No 	Si
+1	1	1	1	1	1	0	1	1	1	Mujer	41 to 50	Casado  	No 	Si
+0	1	1	0	0	0	0	0	0	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+0	1	1	0	0	1	0	0	0	0	Hombre 	41 to 50	Casado  	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	41 to 50	Separated	No 	Si
+0	1	1	0	0	1	0	0	0	0	Hombre 	51 to 60	Casado  	No 	Si
+0	0	1	0	1	0	0	0	0	0	Mujer	31 to 40	Casado  	No 	Si
+1	0	1	0	0	1	0	0	0	0	Mujer	Over 60 	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	41 to 50	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Mujer	Over 60 	Soltero   	No 	Si
+1	1	0	0	0	0	0	1	0	0	Mujer	31 to 40	Casado  	No 	Si
+1	1	1	0	0	0	0	0	0	0	Mujer	Over 60 	ViuDivSep  	Si	Si
+1	1	1	1	0	1	0	1	1	1	Hombre 	18 to 30	Divorced 	No 	Si
+0	1	1	0	0	1	0	0	0	0	Mujer	31 to 40	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	1	1	Hombre	51 to 60	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	0	0	Mujer	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	No 
+0	1	1	0	0	0	0	0	1	0	Hombre 	Over 60 	Divorced 	Si	No 
+0	1	1	1	1	1	0	0	1	1	Hombre 	Over 60 	Divorced 	No 	No 
+0	1	0	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+1	1	1	0	0	1	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	0	1	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+1	0	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	0	1	Hombre 	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	1	1	Hombre 	Over 60 	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	1	0	Hombre 	Over 60 	Divorced 	Si	Si
+0	1	1	0	0	0	0	1	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	1	0	0	0	1	Hombre 	Over 60 	Divorced 	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre 	Over 60 	Divorced 	No 	Si
+1	1	1	0	0	0	0	0	1	1	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	1	0	1	0	0	0	1	0	Hombre 	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	1	0	Mujer	31 to 40	Casado  	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	1	Hombre 	31 to 40	Separated	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	Over 60 	Divorced 	No 	Si
+0	1	1	0	0	0	0	0	0	1	Hombre 	51 to 60	Separated	No 	Si
+1	1	0	0	0	0	0	0	0	0	Mujer	51 to 60	ViuDivSep  	Si	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Separated	No 	Si
+0	1	1	0	0	0	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	41 to 50	Separated	No 	Si
+0	1	1	0	0	1	1	1	1	0	Mujer	51 to 60	Divorced 	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre 	41 to 50	Separated	No 	Si
+1	0	1	0	0	1	0	0	1	0	Mujer	31 to 40	Casado  	No 	No 
+0	0	1	0	0	1	0	1	1	0	Mujer	41 to 50	ViuDivSep  	No 	No 
+0	0	1	0	0	0	0	0	0	0	Mujer	18 to 30	Separated	No 	No 
+0	1	1	0	0	1	0	1	1	0	Mujer	31 to 40	Divorced 	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	31 to 40	Divorced 	No 	Si
+0	0	1	0	0	1	0	0	1	0	Mujer	51 to 60	Separated	No 	Si
+1	1	1	0	0	1	0	0	0	1	Mujer	18 to 30	ViuDivSep  	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	Over 60 	Casado  	No 	Si
+0	1	1	0	1	0	0	0	0	0	Hombre 	31 to 40	Separated	Si	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+0	1	1	0	0	1	0	0	1	0	Hombre 	18 to 30	ViuDivSep  	No 	No 
+0	1	1	0	0	0	0	0	0	0	Hombre 	31 to 40	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	41 to 50	Casado  	No 	Si
+0	1	1	0	0	0	0	0	0	1	Mujer	41 to 50	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Separated	No 	Si
+1	1	1	0	0	0	0	0	0	0	Mujer	Over 60 	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	Over 60 	Separated	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	Over 60 	Casado  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	31 to 40	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	0	0	Mujer	51 to 60	Divorced 	No 	Si
+1	1	1	0	0	1	0	0	0	1	Hombre 	51 to 60	Separated	No 	Si
+0	0	1	0	0	1	0	1	1	0	Hombre 	51 to 60	ViuDivSep  	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	51 to 60	Separated	Si	Si
+0	1	1	0	0	0	0	0	1	0	Mujer	31 to 40	Soltero   	No 	Si
+1	1	1	0	0	1	0	0	0	1	Hombre 	41 to 50	Casado  	No 	Si
+1	1	1	0	0	1	0	0	1	1	Hombre 	51 to 60	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	41 to 50	Separated	No 	Si
+0	0	1	0	0	1	0	0	0	0	Mujer	51 to 60	Soltero   	No 	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+0	1	0	0	0	0	0	0	1	0	Mujer	31 to 40	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	31 to 40	Separated	No 	Si
+0	1	1	0	0	0	0	1	1	0	Hombre 	41 to 50	Divorced 	No 	Si
+1	1	1	1	0	1	0	0	0	0	Hombre 	31 to 40	Divorced 	No 	Si
+1	1	0	0	0	1	0	0	0	0	Hombre 	51 to 60	ViuDivSep  	No 	Si
+1	0	1	0	0	0	0	0	0	0	Mujer	41 to 50	Casado  	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	18 to 30	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	0	0	0	Mujer	31 to 40	ViuDivSep  	No 	Si
+0	1	1	0	0	0	0	1	1	0	Hombre 	Over 60 	Casado  	No 	Si
+0	1	0	0	1	1	0	0	1	1	Mujer	18 to 30	Casado  	No 	Si
+0	0	1	0	0	1	0	0	1	0	Mujer	31 to 40	Casado  	No 	Si
+1	0	1	0	0	0	0	0	0	0	Mujer	18 to 30	Divorced 	No 	Si
+1	1	0	0	0	1	0	1	1	1	Mujer	18 to 30	ViuDivSep  	Si	Si
+0	0	1	0	0	0	0	0	1	0	Mujer	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	1	0	0	0	1	Mujer	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	0	0	Mujer	18 to 30	Soltero   	No 	Si
+0	0	1	0	1	0	0	0	1	0	Mujer	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	1	0	0	1	0	Mujer	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	1	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	1	0	0	0	0	0	1	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	0	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	Si	No 
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	0	1	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	1	0	1	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	0	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	1	0	0	0	1	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	0	1	0	0	1	0	0	1	0	Hombre 	18 to 30	Soltero   	Si	Si
+0	1	0	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	0	0	1	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	0	0	0	0	1	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	0	0	1	0	0	0	0	1	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	1	0	1	0	0	1	1	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	0	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	1	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	0	0	0	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	0	0	0	1	0	0	0	1	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	0	0	1	0	0	1	1	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	1	0	0	0	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+1	1	1	0	1	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	No 
+0	0	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	1	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	1	0	1	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+1	1	0	0	0	1	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	0	1	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	1	0	0	0	0	0	1	0	Hombre 	18 to 30	Soltero   	No 	Si
+0	1	0	0	0	0	0	0	0	0	Hombre 	18 to 30	Soltero   	No 	Si

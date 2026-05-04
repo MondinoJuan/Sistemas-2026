@@ -1,0 +1,443 @@
+educ	sexo	edad	horastv	orgs	hijos	ing	newschan
+20	Masculino	35	1	0	1	$30-40M	Si
+12	Femenino	25	5	0	0	<$10M	No
+14	Femenino	64	2	1	2	$40-50M	Si
+9	Masculino	72	2	2	0	$20-30M	Si
+12	Femenino	67	4	0	5	 	Si
+15	Masculino	33	2	0	0	>$50M	Si
+14	Masculino	23	4	0	1	$20-30M	No
+14	Masculino	60	1	0	1	$40-50M	No
+9	Masculino	77	4	0	2	 	Si
+14	Femenino	52	2	1	2	$30-40M	Si
+14	Femenino	37	5	2	1	$20-30M	No
+16	Femenino	58	3	1	3	$20-30M	No
+13	Masculino	49	1	0	1	$30-40M	Si
+14	Masculino	22	1	4	0	<$10M	No
+15	Femenino	37	3	1	3	$20-30M	No
+12	Masculino	60	3	0	4	$10-20M	Si
+13	Masculino	21	2	0	0	$10-20M	No
+11	Masculino	64	4	1	Ocho o más	$40-50M	Si
+18	Masculino	31	3	3	0	$30-40M	No
+18	Masculino	39	5	0	2	$30-40M	Si
+16	Masculino	35	0	0	0	$30-40M	No
+13	Masculino	33	5	0	0	<$10M	No
+11	Femenino	71	3	0	4	 	No
+12	Femenino	37	9	1	Ocho o más	 	Si
+14	Femenino	50	4	2	3	$20-30M	No
+16	Masculino	39	1	0	2	>$50M	Si
+12	Femenino	61	4	1	3	>$50M	No
+16	Masculino	59	5	0	0	$40-50M	Si
+18	Femenino	33	1	2	0	$10-20M	No
+12	Masculino	23	0	0	1	$20-30M	No
+11	Masculino	20	4	0	0	$10-20M	No
+10	Femenino	36	8	2	2	<$10M	No
+12	Femenino	35	1	1	3	<$10M	No
+12	Femenino	24	3	0	0	$20-30M	No
+10	Masculino	33	1	4	2	$40-50M	No
+12	Masculino	71	2	2	Ocho o más	 	Si
+14	Femenino	40	6	3	1	<$10M	Si
+15	Masculino	35	10	0	4	$30-40M	Si
+16	Masculino	25	3	3	0	$30-40M	Si
+16	Femenino	42	1	4	4	$20-30M	Si
+16	Femenino	29	3	2	0	$20-30M	No
+19	Femenino	32	3	0	1	$30-40M	No
+14	Femenino	50	2	0	3	$20-30M	No
+12	Femenino	34	3	3	0	>$50M	No
+12	Femenino	74	5	4	1	 	Si
+11	Femenino	20	10	2	1	<$10M	Si
+13	Masculino	40	5	2	3	>$50M	No
+16	Femenino	35	2	0	2	<$10M	No
+15	Masculino	43	3	4	2	<$10M	Si
+12	Masculino	42	2	0	0	$30-40M	Si
+10	Femenino	53	2	1	2	<$10M	Si
+19	Masculino	38	3	2	0	$30-40M	No
+13	Femenino	41	2	0	0	<$10M	Si
+15	Masculino	41	1	2	1	$20-30M	No
+11	Masculino	22	1	5	0	$20-30M	No
+12	Masculino	32	3	0	2	$20-30M	No
+12	Masculino	36	1	4	0	>$50M	No
+14	Femenino	44	1	1	1	$20-30M	Si
+14	Femenino	32	3	0	0	$10-20M	No
+12	Masculino	18	3	0	0	$10-20M	No
+13	Masculino	38	3	2	4	$30-40M	No
+9	Femenino	34	2	0	4	$10-20M	Si
+18	Femenino	47	2	2	2	<$10M	Si
+16	Masculino	47	1	0	1	$30-40M	Si
+15	Femenino	22	5	0	0	<$10M	No
+14	Femenino	21	1	0	0	$20-30M	Si
+20	Masculino	37	2	2	0	$30-40M	No
+16	Masculino	28	3	6	0	$20-30M	No
+20	Masculino	47	2	2	0	>$50M	Si
+12	Femenino	49	1	0	0	$30-40M	No
+15	Masculino	22	4	3	0	$10-20M	Si
+18	Femenino	29	2	3	0	>$50M	No
+15	Femenino	26	0	7	2	$40-50M	No
+12	Femenino	22	6	1	1	$10-20M	No
+12	Masculino	49	1	0	5	$20-30M	No
+12	Masculino	24	4	0	0	<$10M	No
+5	Masculino	23	2	1	0	$10-20M	No
+13	Masculino	23	2	1	0	<$10M	No
+11	Femenino	28	4	0	4	 	No
+16	Femenino	39	1	8	2	$30-40M	Si
+12	Masculino	27	1	5	0	$20-30M	No
+17	Masculino	40	1	0	2	$20-30M	Si
+9	Femenino	27	1	2	2	$10-20M	No
+16	Femenino	40	2	4	3	<$10M	No
+13	Masculino	21	1	0	0	<$10M	No
+14	Masculino	32	3	1	2	$30-40M	Si
+16	Masculino	30	4	3	1	>$50M	No
+19	Masculino	32	1	0	2	$40-50M	Si
+12	Femenino	24	4	0	0	<$10M	Si
+10	Femenino	40	3	2	0	$20-30M	No
+14	Masculino	43	3	1	3	>$50M	Si
+16	Masculino	35	2	2	0	>$50M	No
+12	Femenino	47	2	4	4	$10-20M	Si
+15	Femenino	61	3	1	7	$20-30M	No
+16	Femenino	34	1	0	0	$40-50M	Si
+17	Femenino	35	2	0	2	$10-20M	Si
+14	Masculino	73	3	1	3	 	Si
+13	Femenino	39	1	3	3	<$10M	Si
+14	Femenino	33	2	1	0	$20-30M	Si
+12	Femenino	31	8	1	3	<$10M	No
+12	Masculino	30	5	0	1	$20-30M	Si
+13	Femenino	26	2	2	0	$20-30M	No
+16	Femenino	23	3	1	0	$20-30M	No
+14	Femenino	30	2	0	2	$20-30M	No
+16	Femenino	35	6	7	3	$20-30M	No
+19	Femenino	36	0	6	2	$20-30M	Si
+12	Femenino	33	1	1	1	 	No
+17	Masculino	50	2	0	3	$30-40M	Si
+14	Femenino	34	1	2	2	<$10M	No
+12	Masculino	53	4	1	4	$40-50M	Si
+14	Masculino	43	2	1	0	>$50M	No
+12	Femenino	57	1	0	4	$30-40M	Si
+13	Masculino	39	7	0	2	$10-20M	Si
+16	Femenino	36	4	1	0	>$50M	Si
+16	Masculino	52	2	2	2	$40-50M	Si
+14	Masculino	40	2	8	0	$20-30M	No
+16	Masculino	24	2	0	0	$20-30M	Si
+14	Masculino	40	4	1	2	$40-50M	No
+13	Femenino	64	1	2	4	$40-50M	Si
+16	Femenino	28	1	1	0	>$50M	No
+13	Masculino	69	2	4	3	$40-50M	Si
+16	Masculino	36	2	2	2	$30-40M	Si
+12	Femenino	48	4	1	2	$10-20M	Si
+12	Masculino	52	4	0	3	$40-50M	Si
+12	Femenino	43	1	0	1	$20-30M	No
+10	Femenino	54	1	1	4	$30-40M	Si
+13	Femenino	39	2	3	2	>$50M	Si
+12	Femenino	28	 	2	2	<$10M	No
+14	Masculino	34	1	3	2	$20-30M	Si
+16	Masculino	31	2	2	0	$30-40M	Si
+12	Femenino	49	3	3	3	$10-20M	Si
+10	Masculino	25	3	0	0	$20-30M	Si
+13	Masculino	37	3	0	2	$30-40M	No
+12	Femenino	28	2	1	0	$20-30M	No
+12	Femenino	22	2	1	0	$20-30M	No
+12	Femenino	63	4	1	0	$30-40M	Si
+20	Masculino	32	1	1	1	$40-50M	Si
+13	Masculino	29	4	1	0	$20-30M	Si
+14	Masculino	33	2	0	2	$20-30M	Si
+12	Femenino	30	6	0	4	 	No
+12	Femenino	37	4	0	2	$10-20M	Si
+17	Masculino	31	3	0	0	$40-50M	Si
+20	Femenino	50	1	4	1	$40-50M	Si
+12	Femenino	33	2	2	2	 	No
+15	Masculino	25	1	2	0	$20-30M	No
+16	Femenino	44	1	0	2	$20-30M	Si
+12	Femenino	36	2	0	3	>$50M	No
+12	Femenino	53	0	0	4	$10-20M	No
+12	Femenino	62	2	0	3	$10-20M	Si
+12	Masculino	38	3	2	3	$30-40M	Si
+12	Femenino	42	3	0	1	$20-30M	No
+12	Masculino	42	2	3	2	$20-30M	Si
+10	Masculino	47	4	3	2	$20-30M	Si
+12	Masculino	65	3	2	3	$30-40M	No
+12	Femenino	37	0	3	0	 	No
+14	Femenino	33	1	2	1	$20-30M	No
+8	Masculino	44	2	0	2	$40-50M	Si
+19	Masculino	48	1	0	2	>$50M	Si
+16	Masculino	52	1	4	4	>$50M	No
+12	Femenino	35	1	0	1	$20-30M	No
+12	Masculino	34	3	1	2	>$50M	No
+16	Femenino	27	3	2	0	>$50M	No
+12	Femenino	49	2	0	3	<$10M	Si
+13	Femenino	33	4	2	0	$10-20M	Si
+11	Femenino	29	4	0	0	<$10M	No
+11	Masculino	62	2	4	2	$30-40M	No
+13	Masculino	41	2	2	3	$40-50M	Si
+15	Masculino	26	1	7	0	$10-20M	Si
+15	Masculino	34	1	0	0	$20-30M	Si
+16	Masculino	37	0	2	2	$30-40M	Si
+10	Masculino	20	5	0	0	$20-30M	Si
+11	Femenino	33	12	2	2	 	No
+13	Femenino	28	9	2	1	<$10M	No
+12	Femenino	57	4	4	3	<$10M	Si
+12	Masculino	31	3	0	0	>$50M	Si
+16	Femenino	48	2	0	0	$40-50M	Si
+19	Femenino	47	1	2	2	>$50M	No
+12	Masculino	51	0	4	2	>$50M	Si
+16	Masculino	42	4	2	2	$30-40M	Si
+12	Masculino	48	3	1	1	$40-50M	No
+16	Masculino	47	1	4	3	$30-40M	Si
+17	Masculino	51	3	0	7	>$50M	No
+9	Masculino	63	3	4	2	$40-50M	Si
+10	Femenino	40	 	1	1	$10-20M	No
+12	Masculino	31	4	0	2	$10-20M	No
+16	Masculino	35	1	2	0	$40-50M	Si
+14	Masculino	38	1	2	3	$20-30M	No
+12	Masculino	40	2	2	2	>$50M	Si
+12	Femenino	32	1	1	2	$20-30M	No
+12	Masculino	33	2	2	1	>$50M	Si
+16	Masculino	47	2	3	2	>$50M	Si
+14	Masculino	50	2	1	1	$30-40M	Si
+13	Femenino	43	2	0	2	$20-30M	No
+16	Masculino	24	2	3	0	$10-20M	No
+15	Masculino	41	2	4	2	>$50M	Si
+12	Femenino	61	2	1	0	<$10M	Si
+12	Femenino	45	3	1	2	<$10M	Si
+8	Femenino	81	4	2	5	 	Si
+16	Femenino	42	2	0	5	<$10M	Si
+10	Masculino	58	3	1	1	$30-40M	Si
+12	Femenino	58	2	2	3	$10-20M	Si
+13	Masculino	49	1	3	0	$30-40M	No
+12	Femenino	55	3	0	3	$20-30M	Si
+13	Femenino	37	3	2	0	<$10M	No
+12	Femenino	44	2	2	4	$10-20M	Si
+18	Femenino	32	1	1	0	$10-20M	No
+18	Femenino	47	0	0	2	>$50M	Si
+12	Masculino	32	1	3	0	$40-50M	Si
+14	Masculino	38	1	2	1	>$50M	No
+15	Femenino	23	1	0	0	 	No
+12	Femenino	67	2	1	6	>$50M	Si
+10	Masculino	29	5	 	1	>$50M	No
+13	Femenino	37	3	0	2	$10-20M	No
+12	Masculino	26	2	2	2	$20-30M	No
+9	Masculino	44	6	2	2	$10-20M	No
+16	Masculino	42	1	5	0	>$50M	Si
+16	Masculino	37	1	3	0	$40-50M	Si
+12	Masculino	49	3	2	0	$20-30M	No
+11	Femenino	58	3	1	2	$10-20M	No
+14	Femenino	43	2	2	2	$20-30M	No
+12	Masculino	44	1	4	2	>$50M	Si
+12	Masculino	41	9	3	2	$20-30M	Si
+14	Masculino	30	6	4	1	$40-50M	No
+12	Femenino	20	3	1	1	<$10M	No
+14	Femenino	48	8	3	2	<$10M	No
+12	Masculino	60	2	5	4	$40-50M	No
+16	Femenino	29	4	1	4	$10-20M	Si
+12	Masculino	28	1	0	0	<$10M	No
+16	Masculino	41	1	3	0	$20-30M	Si
+18	Femenino	62	3	3	2	 	Si
+11	Masculino	47	6	2	Ocho o más	$10-20M	Si
+12	Femenino	50	4	1	1	<$10M	Si
+10	Femenino	26	3	0	3	<$10M	No
+16	Masculino	39	3	1	2	$30-40M	No
+14	Femenino	47	0	0	2	$20-30M	No
+12	Femenino	38	1	3	2	$30-40M	No
+12	Masculino	41	5	0	1	$40-50M	Si
+13	Femenino	64	2	2	2	$10-20M	Si
+17	Femenino	28	1	3	0	 	Si
+20	Femenino	41	2	6	1	>$50M	Si
+14	Masculino	33	4	0	2	>$50M	Si
+12	Masculino	29	2	2	4	$40-50M	No
+14	Masculino	41	6	3	1	$20-30M	Si
+12	Masculino	75	4	0	0	 	Si
+12	Femenino	27	3	0	1	$10-20M	No
+12	Masculino	42	3	1	1	$10-20M	No
+7	Femenino	61	2	3	4	$10-20M	No
+9	Masculino	33	5	2	1	$20-30M	Si
+10	Masculino	55	0	1	1	$30-40M	No
+12	Femenino	21	2	2	0	$10-20M	No
+15	Femenino	21	2	0	0	 	Si
+8	Femenino	62	2	1	3	$10-20M	Si
+10	Masculino	29	1	0	2	$10-20M	No
+12	Femenino	42	4	3	2	<$10M	Si
+10	Femenino	44	6	0	0	$10-20M	No
+10	Femenino	24	5	0	1	<$10M	No
+12	Masculino	49	3	2	3	$20-30M	Si
+12	Femenino	38	8	2	3	$10-20M	No
+12	Masculino	71	4	3	3	 	Si
+13	Femenino	22	2	2	0	<$10M	No
+17	Femenino	49	1	5	0	>$50M	Si
+12	Masculino	52	3	3	0	$10-20M	Si
+15	Masculino	35	3	3	0	$10-20M	Si
+8	Masculino	46	6	0	2	$20-30M	No
+18	Femenino	32	3	0	0	>$50M	No
+16	Femenino	35	2	1	2	 	No
+15	Masculino	40	2	3	0	>$50M	No
+16	Femenino	39	1	5	2	$30-40M	No
+16	Masculino	25	2	5	0	$20-30M	Si
+15	Femenino	27	2	1	0	$20-30M	No
+16	Femenino	26	3	1	0	$10-20M	No
+14	Femenino	36	1	3	0	>$50M	No
+6	Femenino	40	3	2	2	<$10M	No
+20	Femenino	31	2	2	0	>$50M	No
+14	Femenino	28	2	1	0	$10-20M	No
+14	Masculino	62	1	3	1	$40-50M	Si
+12	Femenino	59	2	0	4	$10-20M	No
+8	Masculino	72	5	1	0	 	Si
+19	Femenino	35	0	1	1	$40-50M	Si
+16	Femenino	38	2	1	0	$40-50M	No
+16	Masculino	39	3	0	0	$40-50M	Si
+11	Masculino	75	1	6	5	$20-30M	Si
+16	Femenino	45	2	5	1	>$50M	No
+16	Masculino	51	3	1	0	>$50M	Si
+13	Masculino	29	0	1	0	$20-30M	Si
+13	Femenino	34	5	0	1	 	Si
+14	Femenino	59	4	1	4	$20-30M	Si
+14	Femenino	59	8	2	2	 	Si
+16	Masculino	37	2	2	0	>$50M	No
+16	Femenino	34	1	2	1	$30-40M	Si
+18	Femenino	41	 	0	0	$20-30M	No
+12	Masculino	31	2	2	0	$30-40M	No
+14	Femenino	60	2	0	4	>$50M	Si
+17	Femenino	38	1	3	2	$10-20M	No
+12	Femenino	52	2	3	6	$20-30M	No
+11	Masculino	39	3	4	2	<$10M	No
+14	Femenino	34	3	1	2	<$10M	No
+8	Masculino	52	4	0	6	>$50M	Si
+12	Femenino	69	3	0	2	$20-30M	Si
+10	Femenino	64	2	1	2	$10-20M	Si
+18	Femenino	26	1	2	0	$40-50M	No
+14	Masculino	36	3	1	2	$40-50M	No
+11	Femenino	44	2	0	6	$10-20M	Si
+13	Masculino	21	2	1	1	<$10M	No
+14	Femenino	89	1	1	2	 	No
+13	Femenino	43	1	2	4	$30-40M	No
+16	Femenino	25	4	0	0	$20-30M	No
+16	Femenino	38	1	3	1	$40-50M	Si
+12	Femenino	19	2	0	0	<$10M	Si
+14	Masculino	23	3	3	0	<$10M	Si
+13	Femenino	40	1	2	2	$20-30M	No
+16	Masculino	23	3	3	0	 	No
+8	Femenino	28	3	0	2	<$10M	No
+14	Masculino	54	3	0	2	$40-50M	Si
+16	Femenino	35	1	0	2	$30-40M	No
+16	Femenino	48	2	2	0	$20-30M	No
+11	Femenino	57	3	0	4	$20-30M	No
+12	Femenino	35	2	0	1	$10-20M	Si
+12	Femenino	46	5	1	2	 	No
+14	Masculino	41	2	6	2	>$50M	Si
+12	Femenino	35	1	2	4	$10-20M	No
+12	Femenino	85	6	0	0	 	Si
+12	Femenino	77	8	1	4	 	Si
+18	Masculino	50	1	2	2	$40-50M	No
+12	Femenino	32	3	2	2	<$10M	No
+12	Femenino	25	4	0	1	<$10M	Si
+16	Femenino	52	0	1	6	$40-50M	No
+14	Femenino	35	3	3	5	<$10M	No
+16	Masculino	25	2	2	1	$10-20M	Si
+14	Masculino	25	1	1	0	 	Si
+15	Femenino	21	1	4	0	<$10M	No
+14	Masculino	38	2	0	3	$30-40M	No
+16	Femenino	33	3	2	0	$40-50M	No
+8	Femenino	84	4	0	3	 	Si
+12	Masculino	44	2	3	2	$30-40M	Si
+12	Masculino	30	3	1	0	$20-30M	Si
+10	Masculino	21	4	1	0	$10-20M	No
+8	Masculino	62	4	0	7	$30-40M	Si
+13	Femenino	31	4	0	3	<$10M	Si
+13	Femenino	40	2	2	2	$10-20M	Si
+15	Masculino	43	1	0	1	$30-40M	No
+12	Femenino	65	5	0	2	<$10M	Si
+14	Masculino	25	0	0	0	$30-40M	Si
+10	Femenino	23	10	4	1	<$10M	No
+11	Femenino	36	1	2	2	$30-40M	No
+14	Femenino	26	6	0	1	$10-20M	Si
+14	Masculino	26	1	2	0	$10-20M	No
+16	Masculino	62	 	0	2	$30-40M	Si
+12	Femenino	24	1	0	1	<$10M	No
+12	Masculino	50	3	0	3	 	Si
+8	Masculino	59	2	1	4	 	Si
+13	Masculino	23	4	0	0	$10-20M	No
+13	Femenino	52	3	2	3	<$10M	No
+18	Femenino	36	1	0	2	$30-40M	Si
+14	Femenino	33	2	0	1	<$10M	No
+12	Femenino	20	4	0	1	<$10M	No
+12	Femenino	41	2	3	4	>$50M	Si
+14	Masculino	27	2	2	2	>$50M	No
+16	Femenino	29	3	3	1	$20-30M	Si
+18	Masculino	54	4	0	0	<$10M	Si
+12	Femenino	29	2	1	2	<$10M	Si
+12	Masculino	22	5	0	0	$10-20M	No
+12	Masculino	42	4	5	0	$40-50M	Si
+11	Masculino	29	3	2	2	$10-20M	No
+12	Femenino	33	0	2	2	>$50M	Si
+8	Femenino	20	8	2	0	<$10M	No
+12	Femenino	63	1	2	5	$20-30M	Si
+12	Masculino	21	4	0	0	<$10M	Si
+15	Femenino	22	2	0	0	<$10M	No
+13	Femenino	39	1	2	4	<$10M	Si
+14	Masculino	26	3	0	2	$20-30M	Si
+12	Femenino	45	3	1	2	 	No
+13	Femenino	24	4	3	2	$20-30M	Si
+12	Femenino	41	2	1	3	<$10M	Si
+14	Masculino	36	3	0	1	>$50M	No
+12	Femenino	23	1	4	1	$20-30M	No
+16	Femenino	49	4	1	1	>$50M	Si
+10	Femenino	60	2	3	2	 	No
+16	Masculino	47	0	0	3	$40-50M	No
+16	Femenino	33	1	3	0	$10-20M	Si
+7	Femenino	39	1	1	2	<$10M	No
+12	Masculino	43	4	2	3	$10-20M	Si
+16	Femenino	50	2	1	4	$20-30M	No
+18	Masculino	43	3	4	1	>$50M	Si
+17	Masculino	49	1	2	1	$20-30M	Si
+20	Masculino	49	0	0	1	$20-30M	Si
+12	Masculino	28	2	3	0	$10-20M	Si
+12	Masculino	33	8	0	3	$30-40M	No
+12	Femenino	26	10	0	2	 	No
+10	Masculino	63	3	0	3	$20-30M	Si
+14	Masculino	36	4	0	1	$10-20M	Si
+14	Masculino	43	4	2	2	$20-30M	Si
+19	Masculino	43	1	1	3	$30-40M	Si
+10	Femenino	60	4	0	0	 	Si
+8	Masculino	48	2	1	2	 	No
+12	Masculino	32	2	0	0	<$10M	No
+12	Masculino	25	3	0	1	$20-30M	No
+11	Femenino	61	3	1	2	 	Si
+6	Femenino	61	6	0	5	$10-20M	No
+12	Femenino	33	1	4	3	$40-50M	No
+8	Femenino	51	3	1	7	 	No
+16	Femenino	50	2	1	0	$10-20M	Si
+11	Femenino	43	2	0	2	<$10M	No
+16	Masculino	47	3	2	1	$30-40M	No
+15	Femenino	22	2	0	0	<$10M	No
+12	Masculino	47	3	0	3	$40-50M	Si
+19	Femenino	44	3	3	0	$20-30M	Si
+12	Femenino	26	3	4	0	$20-30M	Si
+13	Femenino	 	2	0	4	$30-40M	Si
+12	Femenino	32	2	0	2	<$10M	No
+12	Femenino	41	3	1	2	$10-20M	Si
+12	Femenino	57	3	2	1	$10-20M	Si
+13	Femenino	64	2	0	4	$30-40M	No
+15	Masculino	21	2	6	0	$20-30M	No
+14	Masculino	22	2	1	0	<$10M	No
+16	Femenino	22	1	6	0	<$10M	No
+14	Masculino	23	3	3	 	$10-20M	No
+16	Femenino	23	2	2	0	<$10M	No
+16	Femenino	34	1	0	0	$20-30M	No
+17	Masculino	28	4	3	0	 	No
+10	Masculino	47	3	3	1	$20-30M	Si
+12	Femenino	28	4	0	1	<$10M	No
+15	Femenino	24	3	1	0	<$10M	No
+5	Femenino	52	3	0	6	$10-20M	Si
+13	Femenino	33	2	1	3	<$10M	No
+12	Masculino	35	3	0	2	$20-30M	Si
+12	Femenino	41	3	0	3	$10-20M	No
+16	Femenino	32	1	4	2	$20-30M	No
+12	Masculino	34	5	0	2	$10-20M	No
+10	Femenino	33	4	1	2	$10-20M	No
+12	Femenino	31	6	2	2	$10-20M	No
+11	Femenino	47	5	0	2	$10-20M	No
+13	Femenino	57	4	1	2	$10-20M	Si
+14	Masculino	32	3	0	2	$40-50M	Si
+16	Femenino	72	1	1	2	$10-20M	Si
+14	Femenino	31	1	3	1	 	Si
+12	Femenino	48	4	3	2	<$10M	Si
+14	Femenino	32	1	1	2	<$10M	No
+19	Femenino	28	3	0	2	$20-30M	No
+12	Masculino	33	3	2	2	$40-50M	No
+7	Femenino	70	2	2	Ocho o más	<$10M	No
+12	Masculino	35	5	5	0	$30-40M	No
