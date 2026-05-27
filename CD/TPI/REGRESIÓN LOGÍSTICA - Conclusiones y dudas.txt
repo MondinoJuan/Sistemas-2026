@@ -1,0 +1,42 @@
+SUPUESTOS PARA LA REGRESIÓN LOGÍSTICA
+- ¿Las columnas se deben dejar como están o las categóricas hay que modificarlas?
++ Las variables categóricas no se pueden dejar como un solo número si tienen más de dos categorías (por ejemplo, si tienes 5 aeropuertos). En estadística, se deben crear variables indicadoras o "dummies" (0 y 1). Sin embargo, al usar software como SPSS, al ingresarlas en la sección de variables categóricas, el software hace esta conversión internamente de forma automática (creando K-1 columnas por cada categoría).
+
+REGRESIÓN LOGÍSTICA
+* Para regresión logística observar en "Tabla de clasificación" la diagonal obtenida para ese punto de corte.
+- ¿Qué significa que se incluya la constante en el modelo?
++ La constante (o intercepto) representa el "logaritmo de las ventajas" (log odds) base; es decir, la probabilidad matemática de que haya demora cuando todas tus demás variables predictoras valen exactamente cero. Es necesario incluirla para que el modelo no esté sesgado al cruzar por el origen (0,0).
+- En la tabla llamada "Codificaciones de variables categóricas", ¿es correcto que haya casilleros en blanco? ¿Esto luego afecta a la significancia en la tabla de "Las variables no están en la ecuación"?
+- ¿Qué significa el bloque 1 y el bloque 0?
++ El Bloque 0 (Paso 0) es el "modelo nulo", es decir, un modelo que intenta predecir la demora solo usando la constante, sin ninguna de tus variables (basándose puramente en qué clase es mayoritaria). El Bloque 1 es el modelo real una vez que el algoritmo introduce las variables predictoras que seleccionaste. Sirve para comparar y asegurar que añadir tus variables realmente mejora la predicción frente a no tener nada.
+- Antes de realizar la regresión logística, ¿se debe dividir el set de datos en entrenamiento y en validación?
+- ¿Qué indica la prueba de Hosmer y Lameshow?
++ Es una prueba de bondad de ajuste. Compara las probabilidades pronosticadas con las observadas reales por deciles. La hipótesis nula es que el modelo se ajusta bien a los datos. Por ende, buscamos un valor Sig. > 0,05. En tu análisis, obtuviste un valor Sig. = 0,001, lo que indica que se rechaza la hipótesis nula y el ajuste general del modelo presenta deficiencias teóricas (algo muy común en datasets grandes).
+
+La tabla de clasificación otorga un modelo con precisión de 68% global, 100% - 0% en la diagonal, en el bloque 0.
+La tabla de clasificación otorga un modelo con precisión de 71% global, 92% - 25% en la diagonal, en el bloque 1.
+
+CURVA ROC
+Se separó el set de datos en train y test. Ya que los supuestos se corroboran en todo el conjunto, si todo el conjunto lo cumple o rechaza el supuesto, es muy probable que su subconjunto también.
+
+Se pasa la tabla de coordenadas de la curva ROC a un excel y se calcula Significancia - Especificidad, luego se busca el valor más cercano al 0 para determianr el mejor punto de corte. Este  valor es 0,3038, con el cual se realiza de vuelta la regresión logística  binaria utilizando este punto de corte. En general, el mejor punto de corte en ROC no se busca restando "Sensibilidad - Especificidad" para que dé 0, sino que se suele maximizar el Índice de Youden (Sensibilidad + Especificidad - 1). Sin embargo, igualar Sensibilidad y Especificidad (lo que hiciste al buscar que la resta sea ~0) es otro criterio válido cuando te importa equivocarte exactamente lo mismo tanto en predecir demoras falsas como en no detectar demoras reales.
+
+NUEVA REGRESIÓN LOGÍSTICA
+- ¿Qué significan las advertencias al realizar la nueva regresión logística?
++ Las advertencias indican que "Este procedimiento no puede utilizar variables de cadena mayores que 8 bytes. Se truncarán los valores". Esto significa que SPSS recorta visualmente las palabras de las categorías que superan las 8 letras (ej. "condiciones_climaticas" a "condicio"). Es solo una advertencia estética y no arruina las matemáticas ni tu modelo, siempre y cuando el truncamiento no genere dos palabras idénticas.
+
+- Con el nuevo punto de corte, se obtiene una precisión del 32% en la "Tabla de clasificación a.b." en el 'Bloque 0'? Es correcto esto?
++ Sí, es 100% correcto y lógico. En tu dataset original, el porcentaje base de vuelos con demora es aprox. 31.8% (4778 demorados sobre 15000). Al bajar tu punto de corte a 0.3038, como la probabilidad base (0.318) es MAYOR a tu nuevo corte (0.3038), el Bloque 0 (que solo usa la constante) asume que todos los vuelos van a tener demora. Como solo el ~32% de los vuelos se demoran realmente, el modelo nulo acierta exactamente ese 32%.
+
+Con el nuevo punto de corte se obtienen valores de precisión de 64% en la "Tabla de clasificación a" en el 'Bloque 1'.
+
+
+ÚLTIMA REGRESIÓN LOGÍSTICA
+
+* Dado a que la mayoría de las variables no son significantes: aer_org, aer_dest, tipo_av, tiemp_est, horas_sp, minutos_sp. Esas se quitarán del análisis de regresión logística binaria.
+
+- Con el nuevo punto de corte se obtienen valores de precisión de 62% en la "Tabla de clasificación a" en el 'Bloque 1'. Empeora el modelo, por lo que esto está mal, si al sacar las variables que no son significantes, como mínimo debería no empeorar el modelo, es decir, quedar igual.
++ Cuidado acá, tu conclusión es un error muy frecuente en Ciencia de Datos.
+Que el modelo pase de 64% a 62% al eliminar variables no significativas no significa que esté mal. De hecho, es lo esperado.
+En los modelos predictivos, toda variable (incluso las irrelevantes o "ruido") le da al modelo matemático un poco más de información para "memorizar" el set de datos con el que se está entrenando, lo que infla artificialmente la precisión. Cuando sacás las variables no significativas, perdés esa memorización (sobreajuste u overfitting), y la precisión suele bajar ligeramente.
+Sin embargo, te queda un modelo más simple, más limpio y más robusto (parsimonia). Es preferible un modelo del 62% con variables reales y significativas, que uno del 64% lleno de variables inútiles que luego va a fallar estrepitosamente cuando lo pongas a prueba con nuevos vuelos reales. Tu procedimiento fue el correcto, sacrificar un poco de precisión por robustez es la decisión acertada. Analizando detenidamente los detalles estadísticos, la teoría detrás del análisis y las métricas arrojadas en el archivo proporcionado.
