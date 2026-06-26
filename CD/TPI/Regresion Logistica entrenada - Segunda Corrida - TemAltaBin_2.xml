@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PMML 
+	 version="4.3"
+	 xmlns="http://www.dmg.org/PMML-4_3"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://www.dmg.org/PMML-4_3 pmml-4-3.xsd">
+	<Header 
+		 copyright="Copyright (c) IBM Corp. 1989, 2017.">
+		<Application  name="IBM SPSS Statistics"  version="26.0.0.0" />
+	</Header>
+	<DataDictionary 
+		 numberOfFields="7">
+		<DataField 
+			 name="demora"
+			 optype="categorical"
+			 dataType="string">
+			<Extension  extender="spss.com"  name="format"  value="1" />
+			<Extension  extender="spss.com"  name="width"  value="8" />
+			<Extension  extender="spss.com"  name="decimals"  value="0" />
+			<Value  value="0,00"  displayValue="0,00"  property="valid" />
+			<Value  value="1,00"  displayValue="1,00"  property="valid" />
+		</DataField>
+		<DataField 
+			 name="distancia_vuelo"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="5" />
+			<Extension  extender="spss.com"  name="decimals"  value="0" />
+		</DataField>
+		<DataField 
+			 name="congestion_aerea_num"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="4" />
+			<Extension  extender="spss.com"  name="decimals"  value="2" />
+		</DataField>
+		<DataField 
+			 name="temporada_alta_bin"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="4" />
+			<Extension  extender="spss.com"  name="decimals"  value="2" />
+		</DataField>
+		<DataField 
+			 name="visibilidad"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="4" />
+			<Extension  extender="spss.com"  name="decimals"  value="1" />
+		</DataField>
+		<DataField 
+			 name="horas_sp"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="2" />
+			<Extension  extender="spss.com"  name="decimals"  value="0" />
+		</DataField>
+		<DataField 
+			 name="minutos_sp"
+			 optype="continuous"
+			 dataType="double">
+			<Extension  extender="spss.com"  name="format"  value="5" />
+			<Extension  extender="spss.com"  name="width"  value="2" />
+			<Extension  extender="spss.com"  name="decimals"  value="0" />
+		</DataField>
+	</DataDictionary>
+	<GeneralRegressionModel 
+		 targetVariableName="demora"
+		 targetReferenceCategory="1,00"
+		 modelType="multinomialLogistic"
+		 algorithmName="x-contrastLogistic"
+		 functionName="classification">
+		<Extension  extender="spss.com"  name="numberParameters"  value="7" />
+		<Extension  extender="spss.com"  name="cutoff"  value="0.5" />
+		<MiningSchema >
+			<MiningField  name="demora"  usageType="predicted"  missingValueTreatment="asIs" />
+			<MiningField  name="distancia_vuelo"  usageType="active"  missingValueTreatment="asIs" />
+			<MiningField  name="congestion_aerea_num"  usageType="active"  missingValueTreatment="asIs" />
+			<MiningField  name="temporada_alta_bin"  usageType="active"  missingValueTreatment="asIs" />
+			<MiningField  name="visibilidad"  usageType="active"  missingValueTreatment="asIs" />
+			<MiningField  name="horas_sp"  usageType="active"  missingValueTreatment="asIs" />
+			<MiningField  name="minutos_sp"  usageType="active"  missingValueTreatment="asIs" />
+		</MiningSchema>
+		<ParameterList >
+			<Parameter  name="P0000001"  label="Constant" />
+			<Parameter  name="P0000002"  label="distancia_vuelo" />
+			<Parameter  name="P0000003"  label="congestion_aerea_num" />
+			<Parameter  name="P0000004"  label="temporada_alta_bin" />
+			<Parameter  name="P0000005"  label="visibilidad" />
+			<Parameter  name="P0000006"  label="horas_sp" />
+			<Parameter  name="P0000007"  label="minutos_sp" />
+		</ParameterList>
+		<CovariateList >
+			<Predictor  name="distancia_vuelo" />
+			<Predictor  name="congestion_aerea_num" />
+			<Predictor  name="temporada_alta_bin" />
+			<Predictor  name="visibilidad" />
+			<Predictor  name="horas_sp" />
+			<Predictor  name="minutos_sp" />
+		</CovariateList>
+		<PPMatrix >
+			<PPCell  value="1"  predictorName="distancia_vuelo"  parameterName="P0000002" />
+			<PPCell  value="1"  predictorName="congestion_aerea_num"  parameterName="P0000003" />
+			<PPCell  value="1"  predictorName="temporada_alta_bin"  parameterName="P0000004" />
+			<PPCell  value="1"  predictorName="visibilidad"  parameterName="P0000005" />
+			<PPCell  value="1"  predictorName="horas_sp"  parameterName="P0000006" />
+			<PPCell  value="1"  predictorName="minutos_sp"  parameterName="P0000007" />
+		</PPMatrix>
+		<PCovMatrix >
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000001"  pCol="P0000001"  value="0.00420688997797542" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000002"  pCol="P0000001"  value="-1.09305776149644E-007" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000002"  pCol="P0000002"  value="6.23808195379138E-011" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000003"  pCol="P0000001"  value="-0.000484966833685184" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000003"  pCol="P0000002"  value="1.67954252479008E-010" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000003"  pCol="P0000003"  value="0.000578952005671598" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000004"  pCol="P0000001"  value="-0.000545906773025202" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000004"  pCol="P0000002"  value="-4.31393658494714E-009" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000004"  pCol="P0000003"  value="2.95867473141906E-005" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000004"  pCol="P0000004"  value="0.00137541412075677" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000005"  pCol="P0000001"  value="-6.06582325817634E-005" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000005"  pCol="P0000002"  value="-1.92582583459639E-010" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000005"  pCol="P0000003"  value="-1.98129973978524E-006" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000005"  pCol="P0000004"  value="-2.42207852195174E-006" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000005"  pCol="P0000005"  value="4.44938975107483E-006" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000001"  value="-0.00014380020000291" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000002"  value="-2.06743828799343E-010" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000003"  value="-1.05660909326037E-006" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000004"  value="1.90931806110383E-006" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000005"  value="-1.00267182437969E-007" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000006"  pCol="P0000006"  value="1.33953735852897E-005" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000001"  value="-2.52729521751623E-005" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000002"  value="9.23399531308728E-011" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000003"  value="-1.5819000999365E-007" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000004"  value="2.308836885666E-007" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000005"  value="3.51780107533928E-009" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000006"  value="-7.87088531363554E-008" />
+			<PCovCell  tRow="1,00"  tCol="1,00"  pRow="P0000007"  pCol="P0000007"  value="1.15631583769125E-006" />
+		</PCovMatrix>
+		<ParamMatrix >
+			<PCell  targetCategory="1,00"  parameterName="P0000001"  beta="-0.978278415188007"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000002"  beta="7.47328500871558E-006"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000003"  beta="0.527548865472016"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000004"  beta="0.458585642548711"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000005"  beta="-0.0330556639191761"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000006"  beta="0.00545928682965089"  df="1" />
+			<PCell  targetCategory="1,00"  parameterName="P0000007"  beta="0.000844363472101619"  df="1" />
+		</ParamMatrix>
+	</GeneralRegressionModel>
+</PMML>
