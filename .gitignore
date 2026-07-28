@@ -19,3 +19,7 @@ TA/Libros Teoria/Sistemas de Control para Ingenieria.pdf
 
 #Ignoro csv
 Simulacion/TPI/Archivos/recuento_de_carreteras.csv
+
+
+*.zip
+*.pth
