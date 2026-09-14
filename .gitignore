@@ -12,6 +12,7 @@ venv
 venv310
 uso_flask
 Algortimos_Geneticos
+.env
 
 #Ignoro PDFs
 TA/Libros Teoria/Internet de Las Cosas.pdf

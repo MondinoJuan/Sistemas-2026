@@ -1,0 +1,315 @@
+Rol(id_rol, nombre, descripcion, estado)
+id_rol -> PK
+
+Permiso(id_permiso, nombre, modulo, descripcion, estado)
+id_permiso -> PK
+
+rol_permiso(id_rol, id_permiso)
+id_rol, id_permiso -> PK
+id_rol -> FK(Rol)
+id_permiso -> FK(Permiso)
+
+Usuario(id_usuario, dni, nombre, apellido, email, contrasena, fecha_registro, estado)
+id_usuario -> PK
+dni -> UNIQUE
+email -> UNIQUE
+
+usuario_rol(id_usuario, id_rol)
+id_usuario, id_rol -> PK
+id_usuario -> FK(Usuario)
+id_rol -> FK(Rol)
+
+Organizacion(id_organizacion, nombre, direccion, codigo, terreno_abarcado, estado, fecha_alta)
+id_organizacion -> PK
+codigo -> UNIQUE
+
+Club(id_club, id_organizacion, nombre, ciudad, provincia, pais, direccion, estado)
+id_club -> PK
+id_organizacion -> FK(Organizacion)
+
+administrador_organizacion(id_usuario, id_organizacion, tipo_administrador, fecha_solicitud, fecha_aprobacion, estado)
+id_usuario, id_organizacion -> PK
+id_usuario -> FK(Usuario)
+id_organizacion -> FK(Organizacion)
+
+Plan_Suscripcion(id_plan, nombre, descripcion, precio, periodicidad, meses_bonificados, cupos_profesionales, estado)
+id_plan -> PK
+
+Suscripcion(id_suscripcion, id_plan, id_usuario, id_organizacion, fecha_inicio, fecha_fin, modalidad, cupos_totales, estado)
+id_suscripcion -> PK
+id_plan -> FK(Plan_Suscripcion)
+id_usuario -> FK(Usuario)
+id_organizacion -> FK(Organizacion)
+
+Pago(id_pago, id_suscripcion, fecha_pago, importe, moneda, medio_pago, estado, referencia)
+id_pago -> PK
+id_suscripcion -> FK(Suscripcion)
+
+Factura(id_factura, id_suscripcion, id_pago, numero, fecha_emision, periodo_desde, periodo_hasta, importe, moneda, estado)
+id_factura -> PK
+id_suscripcion -> FK(Suscripcion)
+id_pago -> FK(Pago)
+
+Deporte(id_deporte, nombre, descripcion, estado)
+id_deporte -> PK
+
+Categoria(id_categoria, id_organizacion, id_deporte, nombre, edad_minima, edad_maxima, fecha_inicio, fecha_fin, estado)
+id_categoria -> PK
+id_organizacion -> FK(Organizacion)
+id_deporte -> FK(Deporte)
+
+Equipo(id_equipo, id_club, id_categoria, nombre, temporada, estado)
+id_equipo -> PK
+id_club -> FK(Club)
+id_categoria -> FK(Categoria)
+
+Tipo_Evento(id_tipo_evento, id_deporte, nombre, descripcion, estado)
+id_tipo_evento -> PK
+id_deporte -> FK(Deporte)
+
+Musculo(id_musculo, nombre, descripcion, estado)
+id_musculo -> PK
+
+Deportista(id_deportista, id_usuario, dni, nombre, apellido, fecha_nacimiento, sexo, peso, altura, objetivo_peso, objetivo_calorias_diarias, estado)
+id_deportista -> PK
+id_usuario -> FK(Usuario)
+
+Jugador(id_jugador, id_club, id_deportista, dni, nombre, apellido, fecha_nacimiento, posicion, extremidad_habil, estado)
+id_jugador -> PK
+id_club -> FK(Club)
+id_deportista -> FK(Deportista)
+
+jugador_equipo(id_jugador, id_equipo, dorsal, fecha_desde, fecha_hasta, estado)
+id_jugador, id_equipo -> PK
+id_jugador -> FK(Jugador)
+id_equipo -> FK(Equipo)
+
+Profesional(id_profesional, id_usuario, estado, fecha_alta, fecha_validacion)
+id_profesional -> PK
+id_usuario -> FK(Usuario)
+
+Director_Tecnico(id_profesional)
+id_profesional -> PK
+id_profesional -> FK(Profesional)
+
+Preparador_Fisico(id_profesional)
+id_profesional -> PK
+id_profesional -> FK(Profesional)
+
+Nutricionista(id_profesional)
+id_profesional -> PK
+id_profesional -> FK(Profesional)
+
+Especialidad(id_especialidad, nombre, descripcion, estado)
+id_especialidad -> PK
+
+especialidad_profesional(id_profesional, id_especialidad)
+id_profesional, id_especialidad -> PK
+id_profesional -> FK(Profesional)
+id_especialidad -> FK(Especialidad)
+
+profesional_organizacion(id_profesional, id_organizacion, fecha_desde, fecha_hasta, estado)
+id_profesional, id_organizacion -> PK
+id_profesional -> FK(Profesional)
+id_organizacion -> FK(Organizacion)
+
+profesional_equipo(id_profesional, id_equipo, fecha_desde, fecha_hasta, estado)
+id_profesional, id_equipo -> PK
+id_profesional -> FK(Profesional)
+id_equipo -> FK(Equipo)
+
+Permiso_Acceso(id_permiso_acceso, id_deportista, id_profesional, fecha_otorgamiento, fecha_revocacion, codigo_qr, estado)
+id_permiso_acceso -> PK
+id_deportista -> FK(Deportista)
+id_profesional -> FK(Profesional)
+
+Solicitud_Vinculacion(id_solicitud, id_usuario, id_organizacion, id_equipo, id_profesional, id_jugador, id_deportista, tipo_solicitud, fecha_solicitud, estado, motivo_rechazo, fecha_resolucion)
+id_solicitud -> PK
+id_usuario -> FK(Usuario)
+id_organizacion -> FK(Organizacion)
+id_equipo -> FK(Equipo)
+id_profesional -> FK(Profesional)
+id_jugador -> FK(Jugador)
+id_deportista -> FK(Deportista)
+
+Documento_Requerido(id_documento_requerido, nombre, descripcion, tipo_profesional, obligatorio, vigencia_dias, estado)
+id_documento_requerido -> PK
+
+Documento(id_documento, id_usuario, id_documento_requerido, id_organizacion, id_solicitud, nombre_archivo, url_archivo, tipo_archivo, tamano, fecha_carga, fecha_vencimiento, estado, motivo_rechazo)
+id_documento -> PK
+id_usuario -> FK(Usuario)
+id_documento_requerido -> FK(Documento_Requerido)
+id_organizacion -> FK(Organizacion)
+id_solicitud -> FK(Solicitud_Vinculacion)
+
+Torneo(id_torneo, id_organizacion, id_categoria, id_usuario_creador, nombre, temporada, fecha_inicio, fecha_fin, formato, estado)
+id_torneo -> PK
+id_organizacion -> FK(Organizacion)
+id_categoria -> FK(Categoria)
+id_usuario_creador -> FK(Usuario)
+
+torneo_equipo(id_torneo, id_equipo, fecha_inscripcion, estado)
+id_torneo, id_equipo -> PK
+id_torneo -> FK(Torneo)
+id_equipo -> FK(Equipo)
+
+Fixture(id_fixture, id_torneo, nombre, fecha_creacion, estado)
+id_fixture -> PK
+id_torneo -> FK(Torneo)
+
+Jornada(id_jornada, id_fixture, numero, fecha, estado)
+id_jornada -> PK
+id_fixture -> FK(Fixture)
+
+jornada_equipo_libre(id_jornada, id_equipo)
+id_jornada, id_equipo -> PK
+id_jornada -> FK(Jornada)
+id_equipo -> FK(Equipo)
+
+Partido(id_partido, id_jornada, id_equipo_local, id_equipo_visitante, fecha, hora, resultado_local, resultado_visitante, es_amistoso, estado)
+id_partido -> PK
+id_jornada -> FK(Jornada)
+id_equipo_local -> FK(Equipo)
+id_equipo_visitante -> FK(Equipo)
+
+estadistica_partido(id_partido, id_jugador, titular, minutos_jugados, goles, asistencias, pases, pases_correctos, tiros, tiros_al_arco, atajadas, recuperaciones, perdidas, faltas, tarjetas_amarillas, tarjetas_rojas, kilometros, velocidad_promedio)
+id_partido, id_jugador -> PK
+id_partido -> FK(Partido)
+id_jugador -> FK(Jugador)
+
+estadistica_equipo(id_partido, id_equipo, goles, puntos, posesion, tiros, tiros_al_arco, faltas, tarjetas, kilometros, velocidad_promedio)
+id_partido, id_equipo -> PK
+id_partido -> FK(Partido)
+id_equipo -> FK(Equipo)
+
+Evento(id_evento, id_partido, id_tipo_evento, minuto, segundo, coordenada_x, coordenada_y, observaciones, estado)
+id_evento -> PK
+id_partido -> FK(Partido)
+id_tipo_evento -> FK(Tipo_Evento)
+
+evento_jugador(id_evento, id_jugador, rol_en_evento)
+id_evento, id_jugador -> PK
+id_evento -> FK(Evento)
+id_jugador -> FK(Jugador)
+
+Entrenamiento(id_entrenamiento, id_equipo, id_profesional, fecha, lugar, descripcion, intensidad, volumen, estado)
+id_entrenamiento -> PK
+id_equipo -> FK(Equipo)
+id_profesional -> FK(Preparador_Fisico)
+
+participacion_entrenamiento(id_entrenamiento, id_deportista, asistencia, fatiga, carga_completada, observaciones)
+id_entrenamiento, id_deportista -> PK
+id_entrenamiento -> FK(Entrenamiento)
+id_deportista -> FK(Deportista)
+
+Dispositivo(id_dispositivo, id_usuario, tipo, marca, modelo, identificador_externo, fecha_vinculacion, estado)
+id_dispositivo -> PK
+id_usuario -> FK(Usuario)
+
+Registro_Dispositivo(id_registro, id_dispositivo, id_deportista, fecha_hora, datos_actividad, calorias_gastadas, sincronizado, fecha_sincronizacion)
+id_registro -> PK
+id_dispositivo -> FK(Dispositivo)
+id_deportista -> FK(Deportista)
+
+Actividad_Fisica(id_actividad, id_deportista, fecha_hora_inicio, fecha_hora_fin, tipo_actividad, duracion, distancia, calorias_gastadas, intensidad, origen, observaciones)
+id_actividad -> PK
+id_deportista -> FK(Deportista)
+
+Ejercicio(id_ejercicio, id_deportista, nombre, descripcion, tipo_medicion, foto_url, video_url, es_base, estado)
+id_ejercicio -> PK
+id_deportista -> FK(Deportista)
+
+ejercicio_musculo(id_ejercicio, id_musculo)
+id_ejercicio, id_musculo -> PK
+id_ejercicio -> FK(Ejercicio)
+id_musculo -> FK(Musculo)
+
+Rutina(id_rutina, id_profesional, id_deportista_creador, nombre, objetivo, finalidad, estado, fecha_creacion)
+id_rutina -> PK
+id_profesional -> FK(Preparador_Fisico)
+id_deportista_creador -> FK(Deportista)
+
+Rutina_Dia(id_rutina_dia, id_rutina, numero_dia, nombre_dia)
+id_rutina_dia -> PK
+id_rutina -> FK(Rutina)
+
+rutina_dia_ejercicio(id_rutina_dia, id_ejercicio, orden, series, repeticiones, tiempo_trabajo, peso_sugerido, tiempo_descanso)
+id_rutina_dia, id_ejercicio -> PK
+id_rutina_dia -> FK(Rutina_Dia)
+id_ejercicio -> FK(Ejercicio)
+
+rutina_asignada(id_rutina, id_deportista, fecha_ini, fecha_fin, estado)
+id_rutina, id_deportista, fecha_ini -> PK
+id_rutina -> FK(Rutina)
+id_deportista -> FK(Deportista)
+
+Lesion(id_lesion, id_deportista, id_jugador, fecha, zona, diagnostico, gravedad, rehabilitacion, fecha_vuelta_entrenamiento, estado)
+id_lesion -> PK
+id_deportista -> FK(Deportista)
+id_jugador -> FK(Jugador)
+
+Evaluacion_Fisica(id_ef, id_deportista, fecha, altura, peso, imc, grasa_corporal, masa_muscular)
+id_ef -> PK
+id_deportista -> FK(Deportista)
+
+Alimento(id_alimento, nombre, descripcion, kcal_por_gramo, proteinas_por_gramo, grasas_por_gramo, carbohidratos_por_gramo, estado)
+id_alimento -> PK
+
+Registro_Alimenticio(id_registro_alimenticio, id_deportista, fecha, calorias_totales, proteinas_totales, grasas_totales, carbohidratos_totales, observaciones)
+id_registro_alimenticio -> PK
+id_deportista -> FK(Deportista)
+
+Comida(id_comida, id_registro_alimenticio, hora, tipo_comida, metodo_carga, calorias_totales, proteinas_totales, grasas_totales, carbohidratos_totales, descripcion, estado_analisis)
+id_comida -> PK
+id_registro_alimenticio -> FK(Registro_Alimenticio)
+
+comida_alimento(id_comida, id_alimento, cantidad_gramos, validada)
+id_comida, id_alimento -> PK
+id_comida -> FK(Comida)
+id_alimento -> FK(Alimento)
+
+Foto_Comida(id_foto, id_comida, url_imagen, fecha_captura)
+id_foto -> PK
+id_comida -> FK(Comida)
+
+Analisis_IA_Alimento(id_analisis, id_foto, fecha_analisis, modelo, confianza, estado, observaciones)
+id_analisis -> PK
+id_foto -> FK(Foto_Comida)
+
+analisis_alimento(id_analisis, id_alimento, cantidad_gramos, calorias, proteinas, grasas, carbohidratos, confianza)
+id_analisis, id_alimento -> PK
+id_analisis -> FK(Analisis_IA_Alimento)
+id_alimento -> FK(Alimento)
+
+Plan_Nutricional(id_plan_nutricional, id_nutricionista, id_deportista, fecha_inicio, fecha_fin, ideas_comidas, cronograma_ingestas, observaciones, estado)
+id_plan_nutricional -> PK
+id_nutricionista -> FK(Nutricionista)
+id_deportista -> FK(Deportista)
+
+Meta_Nutricional(id_meta, id_plan_nutricional, nombre, valor_objetivo, unidad, fecha_inicio, fecha_fin, estado)
+id_meta -> PK
+id_plan_nutricional -> FK(Plan_Nutricional)
+
+Receta(id_receta, id_deportista, nombre, descripcion, instrucciones, fecha_generacion, origen_ia, clasificacion, estado)
+id_receta -> PK
+id_deportista -> FK(Deportista)
+
+receta_alimento(id_receta, id_alimento, cantidad_gramos)
+id_receta, id_alimento -> PK
+id_receta -> FK(Receta)
+id_alimento -> FK(Alimento)
+
+Notificacion(id_notificacion, id_usuario, fecha_hora, tipo, titulo, mensaje, leida, estado)
+id_notificacion -> PK
+id_usuario -> FK(Usuario)
+
+Log_Auditoria(id_log, id_usuario, fecha_hora, accion, entidad, id_entidad, valor_anterior, valor_nuevo, resultado, ip)
+id_log -> PK
+id_usuario -> FK(Usuario)
+
+Backup(id_backup, id_usuario, fecha_hora, nombre_archivo, ubicacion, formato, tamano, checksum, estado)
+id_backup -> PK
+id_usuario -> FK(Usuario)
+
+Parametro_General(id_parametro, nombre, categoria, valor, valor_min, valor_max, tipo_dato, descripcion, fecha_actualizacion, estado)
+id_parametro -> PK

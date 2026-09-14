@@ -1,0 +1,81 @@
+Presentación 1: Fuerza Bruta
+
+Es una técnica de prueba y error utilizada para descubrir algún secreto guardado bajo contraseña. No se necesita saber de antemanos el PIN, se va probando.
+Conceptos importantes: espacio de búsqueda.
+Fuerza bruta pura.
+Ataque de diccionario: contraseñas frecuentes, patrones.
+Credential stuffing: utiliza users-contraseñas obtenidos de filtraciones de otros servicios.
+
+Se define un objetivo, genera candidatos, comprobarlos y repetir hasta dar con la credencial correcta.
+Hay entornos online y offline (usa 4-way handshake, el cual usa PMK, PTK y MIC).
+
+Hay prevenciones de entrada al sistema (se pueden combinar factores de identificación - MFAs, rate limits, políticas de seguridad y claves, CAPTCHAs, honeypot accounts), defensa en la base de datos y servidor (hashing + salt and pepper), 
+
+Hashing es un proceso matemático que da siempre una cadena de longitud fija. Determinista, unidireccional (no es reversible el proceso), efecto avalancha (un cambio en alguna entrada, da una salida totalmente distinta) y resistencia a las colisiones. Algoritmos populares SHA256, Argon2 y bcrypt.
+
+Salt: valor aleatorio y unico generados para cada una de las contraseñas (aunque sean iguales). No es secreto y se guarda en la base. Es global. Se combina con la contraseña para ahorrar memoria.
+Pepper: secreto unico del sistema, almacenado fuera de la base de datos. No es global. Se puede combinar antes del ingreso o al final, antes de obtener el HASH.
+
+Algortimos lentos: Argon2id, bcrypt, scrypt, PBKDF2.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Presentación 2: Ransomware
+
+Malware es cualquier software que causa daño, roba info o toma control de un sistema.
+Ransomware es un tipo de malware que bloquea los datos de la victima, busca hacerse ver para extorsionar. Cifrado fuerte, pago en criptomonedas, presión temporal.
+
+El ataque del ransomware tiene 7 etapas: Reconocimiento, acceso incial, ejecución, persistencia + escalada, movimiento lateral (SMB, RDP, C&C, PsExec), exfiltración, cifrado + nota.
+
+Utiliza AES y RSA, no puede usarlos por separado, unicamente en conjunto. Cifra grandes cantidades de datos y RSA la clave AES para que el dañado no pueda recuperar la clave tan facil.
+
+La nota de rescate tiene 5 elementos: ID unico, precio, deadline, canal TOR, amenaza de leak.
+
+Tipos: crypto o locker (no te deja usar el sistema), doxware, wiper, RaaS, mobile ransomware.
+
+Evolucion de la extorsión: Extorsión simple (te los cifran), doble (+ exfiltra datos), triple (+ denegacion de servicio) y cuadruple (+ contacto con clientes, socios, prensa).
+
+Se volvió un modelo de negocio, una industria. Hay desarrolladores del malware que lo alquilan a afilidos que consiguen los accesos y realizan los ataques. Hay roles: Operador, afiliado, initial access broker (IAB), negociador y lavado de cripto.
+
+Hay 5 vectores de acceso principales: vulnerabilidades de los sistemas, credenciales comprometidas, correo malicioso, phishing, otros.
+
+Casos: WannaCry (velocidad de propagación), Colonial Pipeline de DarkSide, Change Healthcare de BlackCat, LockBit y Operation Cronos, Argentina Migraciones de Netwalker.
+
+Prevención: perímetro (firewall o MFA), identidad (MFA), endpoints (EDR o XDR), datos y backup, personas (simulaciones) y procesos (plan de respuesta y gestión de parches). Backup: se usaba 3-2-1, ahora 3-2-1-1-0.
+
+Detección: 
+Respuesta: NIST 800-61 con 6 fases.
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Presentación 3: Virus troyanos
+
+Tipo de malware. Programa malicioso que se presenta por un programa legitimo en busca de que el usuario lo descargue y ejecute.
+La clave es la ingeniería social.
+
+No se autorreplica, abre puertas traseras, es la puerta de entrada a otras amenazas, se integra a botnets, actúa de forma oculta, se disfraza de algo legítimo. 
+
+Tipos: backdoor, bancario, RAT, downloader / dropper, ransom, infostealer / spyware.
+
+Casos: Zeus / Zbot, emotet.
+
+Medidas de mitigación: desconfiar, checkear macros, segmentacion de red, antivirus, contraseñas fuertes, firewall, MFA, copias de seguridad.
+
+Ataca la confianza del user, el punto de entrada es el engaño. Depende de la víctima lo ejecute. La defensa más efectiva combina tecnología con educación y buenos hábitos.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Presentación 4: Phishing
+
+Es más un problema humano, se utiliza ingeniería social para manipular a una persona. Atenta al factor humano.
+
+No es un incidente aislado.
+
+Características: suplantacion de identidad, urgencia y presión temporal, miedo o preocupación, promesas de beneficios, solicitudes inesperadas, 
+
+Principios de ing. social: autoridad, urgencia, confianza, miedo, curiosidad, escasez.
+
+Tipos: Email, spear, whaling, smishing, vishing. QR Phishing, social media phishing, angler phishing, pharming.
+
+Casos reales: Google y Facebook, Twitter, Sector salud / gobierno y Auge del Quishing e IA.
+
+Prevención y mitigación: como afecta al factor uhmano es importante capacitar, verificar dominio, desconfiar, reportar. MFA, gestores de contraseñas, filtros de correo, antimalware y EDR endpoint, monitoreo de comportamiento anomalo.
