@@ -1,0 +1,104 @@
+Presentación 1: Grupo 5 - Cryptojacking
+
+Se emplean recursos de un dispositivo infectado para minar criptomonedas. Afecta a la GPU o CPU.
+No busca bloquear o destruir información, sino que busca aprovechar 
+
+El atacante busca comprometer una infraestructura y añadir un script de minería que utilice los recursos de los equipos infectados para su beneficio económico.
+
+Crypto = moneda
+Jacking = secuestro
+
+Se caracteriza por su discreción para pasar el mayor tiempo posible desapercibido. El atacante obtiene todos los beneficios y la victima asume todos los costos. Puede escalar desde un dispositivo a una red de estos.
+
+Los tipos se clasifican según el lugar en el que se ejecutan: navegador, malware, cloud y redes y routers.
+Navegador: cualquiera que visite el sitio va a minar.
+Malware: se instala en el dispositivo y utiliza los recursos en segundo plano.
+Cloud: utiliza todos los recursos de la nube y todos los que se conecten al mismo.
+Redes y routers: se compromete toda la red, un solo dispositivo infecta a todos los demás.
+
+La moneda más utilizada es Monero porque su algoritmo permite minarla en cualquier CPU ordinario y por la privacidad en las transacciones.
+
+Coinhive
+Starbucks Buenos Aires
+Loapi Android
+Tesla -AWS/Kubernetes
+
+
+Indicadores: uso excesivo de GPU o CPU, rendimiento lento o sobrecalentamiento del equipo, procesos desconocidos y tráfico anomalo de red.
+
+Prevención: 
+	Usuario: gestión de permisos
+	Red: firewalls
+	Cloud: MFA, proteger API, gestión de acceso, configuración de alertar y limitar recursos.
+
+Respuesta: Aislar el recurso, identificar el proceso, cuenta o recurso; se contiene eliminando la minería y bloqueando la actividad, se elimina el componente de malware, se recuperan las credenciales y se realiza un proceso de monitoreo.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Presentación 2: Grupo 9 - Gusanos
+
+Un gusano, una vez que ingresa a la red, funciona independientemente. Su infección es exponencial por la capacidad de autorreplicación.
+
+Características principales: se propaga en la red de forma autónoma. Tiene la capacidad de copiar su propio código y ejecutarse. Consume recursos del sistema y del ancho de banda. Puede abrir backdoors y su objetivo es la propagación masiva.
+
+La propagación consta de:
+1- escaneo: busca a quien mas infectar en red local o internet.
+2- explotación: utiliza la brecha de seguridad para meterse al sistema.
+3- repetición: es la autorreplicación. 
+4- repetición: el equipo deja de ser victima y pasa a ser atacante.
+
+
+Gusano Bondat
+PolinRider
+
+Diferencias entre virus, troyano y gusano.
+
+Impacto en infraestructura (saturación externa), operaciones (caída de servicios críticos e interrupcion de negocio), seguridad (puerta de entrada para otros malware y robo de datos) y negocio (perdidas economicas masivas y destruccion de reputacion).
+
+Mitigacion: capa de red (segmentación de red, firewalls, monitoreo constante del tráfico), endpoints y sistemas (parcheo y actualización de software, deshabilitar la autoejecucion de USBs, desplegar soluciones con detección de comportamiento), y devs y factor humano (revision estricta de dependencias en npm y github, no ejecutar tareas autmaticas sin revisar, rotacion regular de credenciales y fomentar capacitacion).
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Presentacion 3: Grupo 8 - Zero-Day
+
+Explota un fallo que el fabricante de hardware o software todavia no conoce, los desarrolladores tuvieron 0 dias para tratar esta amenaza.
+
+tres etapas: vulnerabilidad, exploit, ataque.
+
+ciclo de vida: fallo introducido, descubrimiento, creacion del exploit, explocion activa, divulgacion y parche disponible.
+
+Stuxnet: Natanz - 4 ZD de windows y 1 ZD de PLC Siemmens.
+EternalBlue / WannaCry
+Log4Shell
+Pegasus
+
+Características: desconocidas (ni firma ni parche), alto valor, dificiles de detectar (no coinciden con patrones conocidos), ventana crítica, propagación masiva y objetivos de valor.
+
+
+Prevención y mitigacion: gestion de parches (actualizar de inmediato), EDR/XDR (detectar comportamiento anómalo), Zero Trust (segmentar y limitar el acceso), sandboxing (aislar archivos sospechosos), minimo privilegio (restringir permisos), bug bounty (divulgación responsabel), capacitación (formar frente al phishing) y respuesta a incidentes (planes y backups).
+
+Son complejos, atacan puntos ciegos.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+Presentación 4: Grupo 6 - Ataque DoS y DDoS
+
+Ataque de negacion de servicios, Denial of Service.
+
+Un atacante desde un origen agota recursos de un servicio para dejarlo fuera de linea. No roba datos.
+
+Distributed DoS: no sale de una máquina, sino que de miles o millones de equipos. Es muy dificil de defender, no hay una sola IP, y las que hay son de victimas intermedias.
+
+Tipos de ataques: Volumétrico, De protocolo y De aplicacion.
+
+Otros rasgos: usan botnets, alcance global, trafico anomalo y repentino, atauqes multivector, bajo costo (DDoS por encargo), motivaciones diversas.
+
+Panix
+La era distribuida: con TRINOO
+Hacktivismo y ciberguerra: Estonia 2007.
+la era de las botnets.
+
+Caida de medio internet 2016 (Dyn + Mirai)
+El ataque volumétrico mas grande de la historia: es de fuerza bruta. Aisuru secuestro dispositivos IoT.
+Spamhaus 2013.
+
+Continuidad de negocio: tener mas de un proveedor de un servicio.
+
+
