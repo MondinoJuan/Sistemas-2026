@@ -1,0 +1,4 @@
+- Criptografía: qué es?, simétrica (AES), asimétrica (RSA), por qué se usan ambos y cómo funcionan en conjunto (sistema de encriptación híbrida) (cómo encripta wpp y los bancos); qué es una firma digital.
+- Seguridad de las redes informáticas: modelo tcp/ip, direccionamiento IP != enrutamiento IP, concepto de máscara de red, segmentación de red (física y lógica), firewall (listas de acceso - ACL: saber hacer cada renglón) (wild card y su diferencia con la máscara de red), IDS, IPS, Honeypot, DMZ, VPN (remoto, sitio a sitio y para clientes/servicios en la nube).
+- CISCO PACKET TRACER
+- Exposiciones.
