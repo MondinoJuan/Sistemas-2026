@@ -1,0 +1,112 @@
+Persona 1: Muy buenas noches con todos ustedes, mi nombre es Elen Contreras, soy gerente general de la empresa Pesquera Diamante.
+Persona 1: Todos ustedes han sido convocados y convocadas a esta reunión de gerencia muy importante por los cambios que van a venir aquí en Adelante.
+Persona 1: Para los que recién están ingresando aquí a la empresa, les voy a explicar brevemente en qué consiste el trabajo que realizamos.
+Persona 1: Nosotros somos una especie de empresa dedicada al procesamiento de harina y aceite de pescado, conserva, productos pescos y congelados.
+Persona 1: Tenemos nuestra propia flota de embarcaciones y hemos afrontado esta pandemia saliendo airosos.
+Persona 1: Pero sabemos que todo ha cambiado y queremos executivos que no teman a enfrentar estos cambios.
+Persona 1: Por eso que ustedes han sido convocados y serán presentados el día de hoy.
+Persona 1: Estamos ansiosos de escucharlos.
+Persona 1: Así que vamos a empezar con nuestro supervisor de producción
+Persona 1: El señor Ezequiel Pinedo, ¿te escuchamos Ezequiel?
+Persona 2: Muy buenas noches, mi nombre es Ezequiel Pinedo, soy el supervisor de producción de la empresa pesquera.
+Persona 2: Entonces, en este caso, nuestro objetivo principal es atender todas las demandas dentro de la producción para poder analizar las ventas eficientemente.
+Persona 2: Para ello, ya estoy armando un equipo altamente capacitado
+Persona 2: dentro de las líneas de producción.
+Persona 2: Estoy convocando personal, personal altamente capacitado como mano de obra también, analistas, visitadores, trabajando de la mano con la gerencia de recursos humanos.
+Persona 2: Asimismo también voy a trabajar continuamente de la mano con el área de almacén.
+Persona 2: Y en ese ello, reseccionan todos nuestros productos
+Persona 2: dentro de sus almacenes para dar salida y flujo a las plantas de distribución.
+Persona 2: Bueno, en ese sentido, yo creo que vamos a trabajar en ese orden, siempre apuntando a generar eficiencia y ganancias a la empresa pesquera Diamante.
+Persona 1: Muchas gracias Ceciquiel.
+Persona 1: Bienvenido.
+Persona 1: Ahora queremos escuchar a nuestra gerente de marketing, Nayeli Banda.
+Persona 1: Hola, Nayeli.
+Persona 1: Hola, buenas noches con todo mi nombre es Nayeli Vanda, soy la... Nayeli Vanda tiene problemas de conexión, así que vamos a continuar la reunión con Luz Crisanto, nuestra gerente de ventas, y luego continuamos con Nayeli.
+Persona 3: Luz, estás con el micrófono pagado.
+Persona 3: ¿Después de luz entraste nuevamente?
+Persona 4: Hola, Luz.
+Persona 4: Te escuchamos.
+Persona 4: Muy buenas noches con todos, chicos.
+Persona 4: Mi nombre es Luz Grisanto.
+Persona 4: Es un honor estar aquí reunidos para poder hablar mucho temas de la empresa Diamante.
+Persona 4: Y bueno, como somos un nuevo equipo y aquí el propósito de todo es que podamos tener muchos
+Persona 4: de los objetivos o en ese caso estrategias todo vamos a lograr este tema de inicial ventas en los para el siguiente año se podría decirlo.
+Persona 4: Muy bien, gracias y empezamos con el seguimos con la reunión.
+Persona 1: Perfecto, gracias Nayeli.
+Persona 1: Continuamos nuevamente con perdón, gracias eh Luz, regresamos con eh perdimos a perdimos a Nayeli.
+Persona 1: Eh Flor, Flor Rosales es
+Persona 5: y nos va a presentar a nosotros.
+Persona 5: Buenas noches compañeros, es un gusto presentarme con ustedes y bueno la propuesta que tenemos nosotros en la parte de la cadena de suministros es atravesar las plataformas, hacer un seguimiento tanto de las compras como de las audiciones que se realicen desde el ingreso del del bien hasta el pago de las facturas de los proveedores y para eso contamos con lo que es la plataforma SAP que la vamos a poder ver como se va implementando en el en el CAME.
+Persona 1: Gracias, gracias, Flor.
+Persona 1: Hola, Nayen, y te habíamos perdido hace un momento.
+Persona 1: Ahora sí, podemos escucharte.
+Persona 6: Buenas noches a todos.
+Persona 6: Nayen Givanda, soy la gerenta de marketing.
+Persona 6: Es grato dirigirme a todos ustedes para mencionarles mi propuesta para aumentar nuestros ventas, que es nuestro objetivo.
+Persona 1: Ya tendremos tiempo para escuchar a nuestra compañera Mejeli.
+Persona 6: Ahí se está conectando.
+Persona 6: Vamos a tener cuatro puntos muy importantes para ello, que es la plaza, promoción, producto y uno de ellos es el precio, ¿no?
+Persona 6: De acuerdo a ello vamos a implementar para que nuestras ventas aumenten teniendo encuentros, puntos de venta, los medios en donde se va a informar sobre nuestros productos.
+Persona 6: y también el precio que sea accesible al mercado y competitivo con nuestra competencia.
+Persona 6: Gracias.
+Persona 1: Perfecto, Nayeli.
+Persona 1: Gracias por tus palabras.
+Persona 1: Bien, como mencioné al inicio, nosotros estamos en plan de algunos cambios.
+Persona 1: Si bien es cierto, la pandemia nos ha golpeado muy fuerte.
+Persona 1: También hemos sabido salir agirosos.
+Persona 1: Incluso
+Persona 1: en mejores condiciones que en nuestra competencia.
+Persona 1: Todos sabemos que las cosas han cambiado, incluso para nosotros, en el rubro en que nos manejamos y es por eso que ustedes están convocados aquí.
+Persona 1: Entonces, esta segunda parte de la reunión es para escuchar las propuestas innovadoras que ustedes tienen en su área para nuestra empresa.
+Persona 1: Entonces, vamos a empezar con nuestro supervisor de producción, el señor Ezequiel Pinero.
+Persona 2: Bien, en el área de producción ya justamente estamos analizando la adquisición de nuevos equipos, nuevas maquinarias para poder entrar a la producción netamente de conservas.
+Persona 2: Ya conversé con el área de compras, estamos canalizando también a través de la gerencia de producción, la adquisición de estos equipos, de estos nuevos equipos que van a dar el impulso y el nuevo crecimiento de la empresa.
+Persona 2: Por otro lado, también estamos solicitando la ampliación de nuevos almacenes para poder almacenar nuestras materias primas que están llegando.
+Persona 2: Muchísimas gracias.
+Persona 1: Muchas gracias a nuestros supervisores de producción.
+Persona 1: Vamos a escuchar las propuestas en el campo de marketing y para eso escuchamos a Nayeli Banda.
+Persona 3: Nayeli.
+Persona 3: Bien, continuamos.
+Persona 1: Mientras se recuperamos la conexión con Nayeli, escuchemos la propuesta de ventas y la innovación que nos tiene nuestro gerente y Luz Crisanto.
+Persona 3: Luz, te escuchamos.
+Persona 4: Correcto.
+Persona 4: Muchas gracias.
+Persona 4: Con referencia a las propuestas, por ejemplo, como nosotros trabajamos, si bien es cierto, trabajamos conjuntamente con un área de marketing.
+Persona 4: el área de producción, no logística.
+Persona 4: Entonces, todas las propuestas que se va a recibir, de la cual también se está evaluando y en la cual el área de venta también está apta para poder cumplir los objetivos que estamos proponiendo para que este cierre de año nosotros que estamos
+Persona 4: llegar con mejor resultado, como sabemos que el tema de la pandemia nos ha afectado un poco, nuestras ventas son disminuidos, pero por otro lado, nosotros también sabemos que brindamos productos de alta gama de buena calidad de nutrición.
+Persona 4: Entonces, también vamos a considerar que para el inicio del 2023 está considerando una una propuesta que vamos a con un nuevo proveedor en este caso.
+Persona 4: Debo trabajar con un nuevo proveedor que también está
+Persona 4: trabajando con altos estándares de calidad, la cual eso también lo va a ayudar muchísimo a la empresa para que todos sus producciones, sus pedidos sean de manera correcta entregada hace menos tiempo.
+Persona 4: Muchas gracias.
+Persona 1: Bien, señorita Cristiano, esperamos, esperamos ver los resultados de su trabajo, sabemos que van a ser muy buenos, pero todo depende de nuestro trabajo.
+Persona 1: Señorita Nayeli, ¿estamos con usted?
+Persona 6: Sí, como ya se había
+Persona 6: Exacto, como ya les había comentado inicialmente, la propuesta va encaminada en cuatro puntos importantes.
+Persona 6: Uno de ellos es el producto.
+Persona 6: El producto, como ya se mencionó, es el producto de calidad que cuenta con los que va a satisfacer la necesidad de nuestro público objetivo.
+Persona 6: El precio también va a ser un precio asesible en el mercado competitivo, pero también que nos genere rentabilidad a nosotros, los accionistas, ¿no?
+Persona 6: A nuestro equipo de trabajo.
+Persona 6: En la plaza,
+Persona 6: para ello debemos contar, ubicar los puntos en donde nuestros clientes puedan encontrar fácilmente nuestros productos y la promoción hay que manejar muy bien nuestras redes sociales para que nuestro público conozca, conozca los medios de pago en la plaza en donde van a encontrar esos productos, conozca más sobre nuestros beneficios lo que importan nuestros productos a sus necesidades.
+Persona 6: Gracias.
+Persona 1: Muchas gracias.
+Persona 1: señorita Nayeli, confiamos en mejorar nuestros números a partir de su propuesta.
+Persona 1: Vamos a terminar escuchando la propuesta de la señorita Flor Rosales, que es la gerente de la cadena de suministros.
+Persona 5: Sí, bueno, como les había comentado acerca de este proyecto, acerca de este programa, hace mismo pensamos lo que es formar este equipo, donde delegamos las funciones específicas para cada uno de nuestros trabajadores,
+Persona 5: y como ya había conversado el gerente de producción, estamos a puertas de poder adquirir los equipos, esos equipos tecnológicos para poder mejorar nuestra producción.
+Persona 5: Y también el tema del almacenamiento, el almacenamiento de las materias primas que son indispensables para la producción que tenemos en esta empresa.
+Persona 1: Perfecto.
+Persona 1: Muchas gracias, señorita.
+Persona 1: Muchas gracias a todos por sus propuestas.
+Persona 1: Estoy seguro que con la aplicación de todas estas innovaciones, nuestra empresa crecerá.
+Persona 1: Pero recuerden que las mediciones de cada cosa que nosotros hemos dicho el día de hoy serán revisadas de manera continua.
+Persona 1: Entonces nosotros somos esclavos de nuestra palabra.
+Persona 1: Y lo que hemos dicho el día de hoy es algo que tiene carácter de promesa.
+Persona 1: y según eso todos ustedes serán evaluados pero desde ya les digo tienen toda la confianza de mi parte y de mi parte este marcando a toda esta gran empresa que no deja de crecer y lo seguirá haciendo gracias a todos ustedes.
+Persona 1: Muchas gracias por su asistencia.
+Persona 1: Nos seguimos viendo en el trabajo.
+Persona 1: Nos vemos.
+Persona 4: Muchas gracias a todos.
+Persona 1: Muchas gracias a todos.
+Persona 7: no.
