@@ -1,0 +1,23 @@
+CONCLUSIONES
+
+Las transcripciones generadas por ambos modelos son prácticamente iguales. La ventaja que otorga el obtener un .json con los metadatos de forma estructurada es que, luego, al utilizar el RAG, generar resúmenes o completar planilla, se podrá completar con información derivada de dichos metadatos. Por ejemplo: se puede decir cuánto tiempo se desarrolló una idea, cuanto tiempo habló cada uno, en que momento habló tal persona o se habló de tales temas, etc.
+
+Los resúmenes son muy similares. Por ende, los mapas conceptuales creados a partir de ellos también lo son.
+
+Para la respuesta del RAG se puede ver que se obtiene una mejor respuesta cuando se genera el vectorstore a partir de la transcripción completa, en vez de usar el creado a partir del archivo json que contiene los turnos.
+
+Para completar la planilla es obvio que siempre es mejor utilizar la transcripción completa, pero, en nuestro caso, tuvimos que pasarle al modelo el vectorstore como contexto porque las transcripciones consumían muchos tokens y nos quedábamos sin poder utilizar la API. La versión gratuita te proporciona con 8000 tokens diarios para utilizar y el pasarle la transcripción consumía alrededor de 4500, mientras que el vectorstore cerca de 1000.
+Obviamente, por culpa de ese cambio, el resumen final es algo corto.
+Naturalmente, si una persona no es nombrada a lo largo de la charla, el modelo no va a tener forma de saber el nombre y completarlo, pero el completado de la planilla es una ayuda, no es para que se confíe ciegamente. Lo mismo sucede con la deducción de los puestos de trabajo.
+
+DIFICULTADES
+
+Además del problema del límite de tokens para brindar al modelo con el contexto completo, también surgieron complicaciones a la hora de crear el mapa conceptual. Inicialmente se le pedía al modelo que genere la imagen misma del mapa, esto hacía que por más que se realizaron algunas especificaciones en el prompt de creación del mismo, no podíamos tener mucho control en la generación de este. Debido a esto se generaban mapas monótonos y bastantes difíciles de leer por la superposición de objetos, es por ello que decidimos cambiar el prompt para asegurarnos de que el modelo devuelva una respuesta estructurada. De esta forma el modelo se limita a determinar las ideas principales y las relaciones entre estas si las hay, luego nosotros graficamos cada nodo y relación de forma manual con la librería matplotlib. Cone ste cambio se pudo especificar que los nodos tengan diferentes colores y tamaños, ya sea por la importancia de la idea o agrupados por la persona que los trató.
+
+Otra dificultad afrontada es que teníamos un código transcriptor que detectaba todas las palabras habladas, pero no diferenciaba por persona. Al cambiar a los modelos e whisperX que si detectan por turnos y por persona, no detecta muy bien todo lo discutido. Hay algunos parámetros que se podrían cambiar para mejorar esa detección, pero no son modelos gratuitos.
+
+A la hora de detectar la duración de la reunión para completar la planilla, se le dificulta al modelo sin pasarle el archivo .json. Y la deducción del lugar.
+
+Al crear el mapa conceptual los nodos se posicionan en los bordes de la imagen, generalmente, lo que conlleva a que las etiquetas de estos, que son las ideas principales, muchas veces salgan cortadas por el largo que manejan.
+
+Cada vez que se le pedía al modelo que redacte algo, asi como lo son los resúmenes o textos dentro de la planilla, lo hacía en formato de markdown, es por ello que a lo largo del código se especifica en los prompts reiteradas veces que no utilice ese formato. Lo mismo sucede a la hora de solicitar una respuesta estructurada, en nuestro caso en formato json, que devuelve con un formato distinto al requerido, pero algo cercano, por lo que se redactaron varias líneas de código purificando la respuesta.
