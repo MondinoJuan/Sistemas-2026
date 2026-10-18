@@ -1,7 +1,7 @@
 4 - https://www.ibm.com/es-es/think/topics/knowledge-management
 4 - https://blog.invgate.com/es/proceso-de-gestion-del-conocimiento#descargar-plantilla
 4 - https://invgate.com/es/itsm/knowledge-management
-- https://www.ibm.com/mx-es/think/topics/data-warehouse-vs-data-lake-vs-data-lakehouse
-- https://cloud.google.com/learn/what-is-a-data-lake?hl=es-419&authuser=0
+3 - https://www.ibm.com/mx-es/think/topics/data-warehouse-vs-data-lake-vs-data-lakehouse
+3 - https://cloud.google.com/learn/what-is-a-data-lake?hl=es-419&authuser=0
 2 - https://gestion.pensemos.com/bsc-vs-okr
 2 - https://clickup.com/es-ES/blog/154556/okr-vs-cuadro-de-mando-integral
