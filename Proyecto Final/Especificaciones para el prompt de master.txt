@@ -1,0 +1,48 @@
+1.1 - 
+
+1.2 - 
+
+1.3 - Sí, la idea es desarrollar localmente y luego pasar a una nube.
+
+1.4 - Por ahora no vamos a hacer aplicación de escritorio.
+
+2 - La idea es que primeramente funcionen a la perfección la parte de ABM de USUARIOS, TORNEOS, CATEGORIAS, DEPORTES, EQUIPOS, FIXTURE, JUGADORES, DEPORTISTAS, ORGANIZACIONES/CLUB, PARTIDOS, EVENTOS, observación de estadísticas del partido (como primera instancia gráficos simples, no muy complejos como los de BI), RUTINAS, registro alimenticio, gestión de permisos a profesionales y portal estadístico público. Es decir, coincido con lo que pusiste en la tabla.
+
+2.A - 
+
+2.B - Se exige que las pantallas funcionales estén conectadas a la API y a la persistencia.
+
+2.C - Realizar un script que complete la base de datos de datos iniciales, alrededor de 20 datos por cada una de las entidades creadas, tratando de cubrir todos los casos. Pero esto se puede hacer en una fase aparte, no al final porque tenemos que presentar un prototipo funcional dentro de poco.
+
+2.D - Frente a casos incompletos o ambiguos debe documentarlos para que, luego, nosotros podamos dar una respuesta o solución.
+
+2.E - La idea es que se cree una estructura extensible a más de un deporte para que luego se puedan agregar. Como actividades físicas en general se van a tener en cuenta actividades como futbol, gimnasio, handball, tenis, basket y running.
+
+2.F - Para mi si debería recorrer el flujo completo, pero no se si con una respuesta simulada. Puede ser, no digo que no.
+
+3. 
+
+4. Si correo y contraseña, y recuperación de contraseña desde la primera versión. Verificación del correo puede ser más adelante.
+El tema de dejar registro para auditorías puede hacerse más adelante.
+Va a haber variables de entorno. Si más adelante decidimos cambiar a gestor de secretos lo vamos a averiguar y a indicar.
+Si se deben contemplar las pruebas de seguridad, pero eso también se puede hacer más adelante.
+La seguridad se debe llevar a cabo desde el principio.
+
+5. Identificar los registros locales para que no haya duplicaciones al sincronizar.
+Si falla una sincronización se debería poder reintentar, los datos del dispositivo móvil que pueden desaparecer de la base de datos móvil son los que ya están sincronizados o en la nube, el resto habría que recuperarlos o mantenerlos.
+
+6. Concuerdo con todo el punto 6. Sumandole diferentes carpetas para cada modelo, ya que habrá varios dependiendo de la funcionalidad.
+Creo que la mejor idea es que esta parte esté preparada como para utilizar el modelo ya directamente, nosotros lo entrenaríamos aparte y le pasaríamos los archivos con los pesos y parámetros aprendidos en un archivo .pth; la arquitectura y configuración del mismo en un .yaml o .json; procesamiento (cómo normalizar, transformar o codificar los datos de entrada) también en .json o .yaml.
+Desarrolla las pantallas con los los datos de un adaptador simulado.
+Y se debe tener un indicador que notifique que los datos son simulados o reales.
+
+7. Dependiendo del plan la subscripcion puede ser de un club o un deportista. Si es de un club, se puede extender a una cantidad de profesionales.
+
+8. Concuerdo con lo que planteas en el punto 8, mas que nada con la división de fases del trabajo.
+Concuerdo también con las reglas que Codex debería cumplir en todas las fases.
+
+9. Va a ser un monorepo.
+Visualmente debe ser responsive, accesible, componentes reutilizables en la medida de lo posible.
+Logs estructurados, errores identificables y trazabilidad de las operaciones relevantes.
+Documentar siempre que se pueda: funcionalidades, servicios, guías y dependencias.
+Quiero el documento de estado.
