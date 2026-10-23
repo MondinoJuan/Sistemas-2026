@@ -6,7 +6,7 @@
 
 1.4 - Por ahora no vamos a hacer aplicación de escritorio.
 
-2 - La idea es que primeramente funcionen a la perfección la parte de ABM de USUARIOS, TORNEOS, CATEGORIAS, DEPORTES, EQUIPOS, FIXTURE, JUGADORES, DEPORTISTAS, ORGANIZACIONES/CLUB, PARTIDOS, EVENTOS, observación de estadísticas del partido (como primera instancia gráficos simples, no muy complejos como los de BI), RUTINAS, registro alimenticio, gestión de permisos a profesionales y portal estadístico público. Es decir, coincido con lo que pusiste en la tabla.
+2 - La idea es que primeramente funcionen a la perfección la parte de ABM de USUARIOS, TORNEOS, CATEGORIAS, DEPORTES, EQUIPOS, FIXTURE, JUGADORES, DEPORTISTAS, ORGANIZACIONES/CLUB, PARTIDOS, EVENTOS, observación de estadísticas del partido (como primera instancia gráficos simples, no muy complejos como los de BI), RUTINAS, registro alimenticio, gestión de permisos a profesionales y portal estadístico público. Es decir, coincido con lo que pusiste en la tabla. Y queremos utilizar un ORM para el backend.
 
 2.A - 
 
@@ -27,9 +27,11 @@ El tema de dejar registro para auditorías puede hacerse más adelante.
 Va a haber variables de entorno. Si más adelante decidimos cambiar a gestor de secretos lo vamos a averiguar y a indicar.
 Si se deben contemplar las pruebas de seguridad, pero eso también se puede hacer más adelante.
 La seguridad se debe llevar a cabo desde el principio.
+El QR lo generan los profesionales y las organizaciones, el deportista o los jugadores solo escanean y aceptan o rechazan el compartir la información.
 
 5. Identificar los registros locales para que no haya duplicaciones al sincronizar.
 Si falla una sincronización se debería poder reintentar, los datos del dispositivo móvil que pueden desaparecer de la base de datos móvil son los que ya están sincronizados o en la nube, el resto habría que recuperarlos o mantenerlos.
+La APP será únicamente para Android en un principio.
 
 6. Concuerdo con todo el punto 6. Sumandole diferentes carpetas para cada modelo, ya que habrá varios dependiendo de la funcionalidad.
 Creo que la mejor idea es que esta parte esté preparada como para utilizar el modelo ya directamente, nosotros lo entrenaríamos aparte y le pasaríamos los archivos con los pesos y parámetros aprendidos en un archivo .pth; la arquitectura y configuración del mismo en un .yaml o .json; procesamiento (cómo normalizar, transformar o codificar los datos de entrada) también en .json o .yaml.

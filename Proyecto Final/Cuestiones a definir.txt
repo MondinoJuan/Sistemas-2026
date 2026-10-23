@@ -2,20 +2,17 @@ Definir:
 * Reglas de negocio para la base de datos (se utilizan bien para indicar cómo se armarán las tablas en la BdD y cómo serán las relaciones y restricciones entre cada entidad).
 * Cuáles son los datos sensibles y qué métodos de seguridad les aplicaremos (criptografía u otros).
 * Roles y qué permisos tendrá cada uno.
-* 1.2 ¿Qué significa separar el backend y la base de datos móvil? Para no tener redundancia de la base de datos completa en un dispositivo móvil puede que sea importante especificar cuáles son los datos que se pueden almacenar localmente y luego sincronizar de forma segura a la BdD (por ejemplo que solo almacene los eventos de un partido, ya que en base a estos se pueden calcular las estadísticas). Otro tipo de dato podría ser la rutina para poder consultarla sin conexión o los alimentos apra que pueda hacer la carga en cualquier momento y se sincronice cuando haya internet; pero no así los datos médicos.
+* 1.2 ¿Qué significa separar el backend y la base de datos móvil? Para no tener redundancia de la base de datos completa en un dispositivo móvil puede que sea importante especificar cuáles son los datos que se pueden almacenar localmente y luego sincronizar de forma segura a la BdD (por ejemplo que solo almacene los eventos de un partido, ya que en base a estos se pueden calcular las estadísticas). Otro tipo de dato podría ser la rutina para poder consultarla sin conexión o los alimentos para que pueda hacer la carga en cualquier momento y se sincronice cuando haya internet; pero no así los datos médicos.
 * Qué funcionalidades funcionan sin conexión (va de la mano con lo anterior).
 * 1.1 ¿Qué framework utilizar en el backend? Master recomienda NestJS con TypeScript, porque Sportwise tiene muchos módulos, roles, reglas de negocio e integraciones. NestJS permite organizar el sistema por módulos y mantener controladas las dependencias entre controladores, servicios y persistencia.
 La alternativa sería Express, que es más sencillo de arrancar, pero requiere definir más convenciones por cuenta propia.
-* ORM
 * 4 Sesiones: elegir el mecanismo de autenticación y la estrategia de expiración, renovación y revocación.
-* 4 Definir quién genera el código y quién lo lee, en la vinculación por QR.
 * 4 Qué operaciones se debe dejar registro para auditorías. 
 * 5 ¿Qué datos se descargan previamente? Por ejemplo, si la app móvil identifica que faltan menos de 24hs para un partido del fixture, que se cree una tarea de descarga de los datos del partido (equipo, jugadores del rival o cualquier cosa referente a este). Los jugadores puede que se carguen en el mismo momento del partido, pero es un ejemplo.
 * 5 Identificar los registros locales para que no haya duplicaciones al sincronizar. Hay que determinar cómo se van a identificar dichos datos y en qué momento pasan a estar sincronizados (por si hay problemas con la conexión en medio de una sincronización).
 * 5 Cómo se gestionan los reintentos de una misma operación de sincronización para que no genere registros duplicados.
 * 5 Cómo se resuelven los conflictos. Hay que establecer qué sucede si dos dispositivos modifican el mismo dato o si un registro fue modificado en el servidor mientras el móvil estaba desconectado. qué pasa si hay operaciones idempotentes.
 * 5 Representar los diferentes estados (pendiente, sincronizando, sincronizado y error) de una sincronización.
-* 5 ¿Se va a hacer la app móvil solo para Android o para IOS también?
 * 6 Definir el contrato: qué datos recibe la IA y qué respuesta se espera.
 * 7 Definir qué operaciones de pago se realizarán (transferencia, débito automático, crédito, cuotas, un pago).
 * 7 Definir los estados de los planes y a qué funcionalidades tendrá acceso cada uno.
