@@ -5,6 +5,8 @@ frro-python-2025-08/
 TPI_TA_4K02-G01_V2
 TPI_TA_4K02-G01
 
+SG/TP3/Datos TP BI/Datos/
+
 #Ignoro buildozer
 .buildozer
 bin
